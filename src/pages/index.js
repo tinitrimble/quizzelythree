@@ -1,3 +1,9 @@
-import React from "react"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-export default () => <div>Hello world!</div>
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
+

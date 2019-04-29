@@ -1,0 +1,298 @@
+{
+  "questions": [
+    {
+      "text": "What is the name of the hotel in Twin Peaks?",
+      "answers": [
+        {
+          "option": "The Best Western Hotel",
+          "correct": false
+        },
+        {
+          "option": "The Great Northern Hotel",
+          "correct": true
+        },
+        {
+          "option": "The Stanley Hotel",
+          "correct": false
+        },
+        {
+          "option": "The Grand Budapest Hotel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What state is the town of Twin Peaks in?",
+      "answers": [
+        {
+          "option": "Washington",
+          "correct": true
+        },
+        {
+          "option": "California",
+          "correct": false
+        },
+        {
+          "option": "Oregon",
+          "correct": false
+        },
+        {
+          "option": "Montana",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "Who killed Laura Palmer?",
+      "answers": [
+        {
+          "option": "Sheriff Harry Truman",
+          "correct": false
+        },
+        {
+          "option": "Special Agent Dale Cooper",
+          "correct": false
+        },
+        {
+          "option": "Benjamin Horne",
+          "correct": false
+        },
+        {
+          "option": "Leland Palmer",
+          "correct": true
+        }
+      ]
+    },
+
+    {
+      "text": "Has James always been cool?",
+      "picture": "https://vignette.wikia.nocookie.net/twinpeaks/images/9/90/JamesRoadhouse.png/revision/latest?cb=20170807173150",
+      "answers": [
+        {
+          "option": "James has always been cool",
+          "correct": false
+        },
+        {
+          "option": "James is the worst one",
+          "correct": true
+        }
+      ]
+    },
+
+    {
+      "text": "What is the name of this Twin Peaks character?",
+      "picture": "https://media.giphy.com/media/l1IYkYfoPgeMXwIxy/giphy.gif",
+      "answers": [
+        {
+          "option": "Dick Tremaine",
+          "correct": false
+        },
+        {
+          "option": "John Justice Wheeler",
+          "correct": true
+        },
+        {
+          "option": "Hank Jennings",
+          "correct": false
+        },
+        {
+          "option": "Bobby Briggs",
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "text": "Which character is Shelly not involved with?",
+      "answers": [
+        {
+          "option": "Leo Johnson",
+          "correct": false
+        },
+        {
+          "option": "Bobby Briggs",
+          "correct": false
+        },
+        {
+          "option": "Ed Hurley",
+          "correct": true
+        },
+        {
+          "option": "Gordon Cole",
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "text": "Who does Nadine fall for in the middle of season 2?",
+      "answers": [
+        {
+          "option": "Bobby Briggs",
+          "correct": false
+        },
+        {
+          "option": "Mike Nelson",
+          "correct": true
+        },
+        {
+          "option": "Big Ed Hurley",
+          "correct": false
+        },
+        {
+          "option": "James Hurley",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What happened to Josie?",
+      "answers": [
+        {
+          "option": "Pete Martell kidnapped her",
+          "correct": false
+        },
+        {
+          "option": "She disappeared into a pillow",
+          "correct": false
+        },
+        {
+          "option": "She went to One Eyed Jacks",
+          "correct": false
+        },
+        {
+          "option": "She was trapped in a wooden drawer knob",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is not a clue from the Giant?",
+      "answers": [
+        {
+          "option": "When you see me again, it won't be me",
+          "correct": true
+        },
+        {
+          "option": "There's a man in a smiling bag",
+          "correct": false
+        },
+        {
+          "option": "The owls are not what they seem",
+          "correct": false
+        },
+        {
+          "option": "Without chemicals he points",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What war does Benjamin Horne become obsessed with during season two?",
+      "answers": [
+        {
+          "option": "The Civil War",
+          "correct": true
+        },
+        {
+          "option": "World War II",
+          "correct": false
+        },
+        {
+          "option": "World War I",
+          "correct": false
+        },
+        {
+          "option": "The French Revolution",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is Log Lady's full name?",
+      "answers": [
+        {
+          "option": "Catherine Coulson",
+          "correct": false
+        },
+        {
+          "option": "Gersten Hayward",
+          "correct": false
+        },
+        {
+          "option": "Margaret Lanterman",
+          "correct": true
+        },
+        {
+          "option": "Mrs. Tremond",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "text": "What character does actor Harry Dean Stanton play?",
+      "answers": [
+        {
+          "option": "Steven Burnett",
+          "correct": false
+        },
+        {
+          "option": "Bradley Mitchum",
+          "correct": false
+        },
+        {
+          "option": "Bill Kennedy",
+          "correct": false
+        },
+        {
+          "option": "Carl Rodd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "text": "Why is Jacoby painting golden shovels?",
+      "answers": [
+        {
+          "option": "So people can dig to find Laura's necklace?",
+          "correct": false
+        },
+        {
+          "option": "Shit digging",
+          "correct": true
+        },
+        {
+          "option": "To rally the town of Twin Peaks to find the lodge",
+          "correct": false
+        },
+        {
+          "option": "Oil striking",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "headline": "You know literally nothing",
+      "resultpic": "https://media.giphy.com/media/NYMB1fVEBlHAQ/giphy.gif",
+      "summary": "Why are you even taking this quiz? I don't think you've ever watched Twin Peaks"
+    },
+    {
+      "headline": "Casual Fan",
+      "resultpic": "https://media.giphy.com/media/rzloswSbxwBtS/giphy.gif",
+      "summary": "You sure know your way around a Twin Peaks episode or two. You've probably watched through at least once or twice."
+    },
+    {
+      "headline": "Hardcore Twinpy",
+      "resultpic": "https://media.giphy.com/media/zDblGyoaNqwLu/giphy.gif",
+      "summary": "You've watched episode after episode, scrutinizing the details for answers. You know and love every character of the show and have probably actually been to the Black Lodge."
+    }
+  ],
+  "quizheadline":
+  {
+    "quiztitle": "How well do you know Twin Peaks?",
+    "intropic": "https://twinpeaksfreaks.files.wordpress.com/2014/05/audrey3.jpg",
+    "quizsummary": "Think you know everything there is to know about Twin Peaks? Take this quiz to find out!"
+  }
+}

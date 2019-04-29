@@ -1,0 +1,20 @@
+.App {
+  background-color: #white;
+}
+
+.App-header {
+  background-color: #ffbb91;
+  height: 90px;
+}
+
+.App .page-name {
+  display: inline;
+  color: white;
+  vertical-align: middle;
+  padding: 2px 2px 2px 2px;
+  font-size: 36px;
+}
+
+.App .Introduction {
+  display: inline;
+}
