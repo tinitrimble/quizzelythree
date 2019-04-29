@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Introquiz from './Introquiz.js';
 import Counter from './Counter.js';
 import Question from './Question.js';
-import logo from './q2.svg';
 import './App.css';
 import quizInfo from './quiz.json';
 import Results from './Results.js';
@@ -52,18 +51,15 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2 className="page-name">Quizzelydoo</h2>
         </div>
         {isQuizIntro ? (
           <div className="Introduction">
-            <Adbox />
             <Introquiz
               quiztitle={quizInfo.quizheadline.quiztitle}
               intropic={quizInfo.quizheadline.intropic}
               quizsummary={quizInfo.quizheadline.quizsummary}
               onClick={this.handleQuizStart}/>
-            <Adboxtwo />
           </div>
         ) : (
           <div className="Quiz-Display">
