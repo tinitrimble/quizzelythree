@@ -1,9 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import App from '../components/App.js';
 import './index.css';
 
-ReactDOM.render(<App />);
-registerServiceWorker();
-
+export default () => <App />
