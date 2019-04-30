@@ -44,11 +44,13 @@
 }
 
 .question .possible-choices .choice.rightAnswer {
-  background-color: #bee2d5;
+  background-color: #6EC8B2;
+  color: #fff;
 }
 
 .question .possible-choices .choice.wrongAnswer {
-  background-color: #ddbaba;
+  background-color: #E85A4F;
+  color: #fff;
 }
 
 .question .possible-choices .choice.answered {
@@ -80,5 +82,14 @@
   }
   .question .img {
     min-width: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .question {
+    border-radius: 0px;
+  }
+  .question h3 {
+    padding: 5px 20px;
   }
 }

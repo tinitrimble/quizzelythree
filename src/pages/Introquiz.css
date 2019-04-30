@@ -1,5 +1,6 @@
 .App .quiz-title {
   text-align: center;
+  margin-top: 30px;
   padding-bottom: 40px;
   position: relative;
 }
@@ -93,5 +94,16 @@
   .Quiz-pic {
     text-align: center;
     max-height: 200px;
+  }
+}
+
+@media (max-width:400px) {
+  .App .Quiz-pic {
+    max-height: 150px;
+    text-align: center;
+  }
+  .quiz-title {
+    text-align: center;
+    margin: 0 10px 0 10px;
   }
 }
