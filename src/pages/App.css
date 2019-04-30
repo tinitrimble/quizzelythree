@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 75px;
   margin: 5px 30px 1px 20px;
   display: inline;
@@ -27,4 +26,12 @@
 .App .Introduction {
   display: inline;
 }
+
+@media (max-width: 600px) {
+  .App-logo {
+    margin: 5px 10px 1px 10px;
+  }
+}
+
+
 
