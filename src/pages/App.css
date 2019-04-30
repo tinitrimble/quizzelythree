@@ -2,19 +2,29 @@
   background-color: #white;
 }
 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 75px;
+  margin: 5px 30px 1px 20px;
+  display: inline;
+  vertical-align: middle;
+}
+
 .App-header {
-  background-color: #ffbb91;
+  background-color: #fff;
   height: 90px;
+  border-bottom: 1px solid #6EC8B2;
 }
 
 .App .page-name {
   display: inline;
-  color: white;
+  color: #E85A4F;
   vertical-align: middle;
-  padding: 2px 2px 2px 2px;
+  padding: 16px 2px 2px 2px;
   font-size: 36px;
 }
 
 .App .Introduction {
   display: inline;
 }
+
