@@ -1,0 +1,73 @@
+.global {
+  background-color: #fff;
+  height: 90px;
+  border-bottom: 1px solid #6EC8B2;
+}  
+
+.logo {
+  height: 75px;
+  margin: 5px 30px 1px 20px;
+  vertical-align: middle;
+}
+
+.page-name {
+  text-decoration: none;
+  font-weight: 200;
+  color: #FFA449;
+  vertical-align: middle;
+  padding: 16px 2px 2px 2px;
+  font-size: 36px;
+}
+
+.searchbar {
+  display: inline;
+  float: right;
+  margin-top: 32px;
+  width: 170px;
+  transition: width 0.4s ease-in-out;
+  font-size: 16px;
+}
+
+.searchbar:focus {
+  width: 26%;
+  outline: 1px solid rgba(249, 113, 49, 0.5);
+  font-size: 16px;
+}
+
+.page-name {
+  display: inline;
+  color: #ffa449;
+  vertical-align: middle;
+  padding: 16px 2px 2px 2px;
+  font-size: 36px;
+}
+
+
+@media (max-width: 600px) {
+  .global {
+    display: inline;
+    height: 80px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .page-name {
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 200;
+  }
+
+  .searchbar {
+    font-size: 12px;
+    transition: width 0.4s ease-in-out;
+    padding-top: 5px;
+    width: 70px;
+  }
+
+  .searchbar:focus {
+    width: 28%;
+    font-size: 12px;
+  }
+}

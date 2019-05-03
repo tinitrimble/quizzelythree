@@ -1,36 +1,8 @@
 .App {
   background-color: #white;
 }
-
-.App-logo {
-  height: 75px;
-  margin: 5px 30px 1px 20px;
-  display: inline;
-  vertical-align: middle;
-}
-
-.App-header {
-  background-color: #fff;
-  height: 90px;
-  border-bottom: 1px solid #6EC8B2;
-}
-
-.App .page-name {
-  display: inline;
-  color: #ffa449;
-  vertical-align: middle;
-  padding: 16px 2px 2px 2px;
-  font-size: 36px;
-}
-
 .App .Introduction {
   display: inline;
-}
-
-@media (max-width: 600px) {
-  .App-logo {
-    margin: 5px 10px 1px 10px;
-  }
 }
 
 
