@@ -46,16 +46,16 @@
 @media (max-width: 600px) {
   .global {
     display: inline;
-    height: 80px;
+    height: 50px;
+    border-bottom: none;
   }
 
   .logo {
-    margin-bottom: 20px;
+    margin-right: 8px;
   }
 
   .page-name {
-    font-size: 18px;
-    padding-top: 5px;
+    font-size: 22px;
     font-weight: 200;
   }
 
