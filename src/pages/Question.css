@@ -78,5 +78,6 @@
 @media (max-width: 600px) {
   .question {
     border-radius: 0px;
+    padding: 20px 20px;
   }
 }
