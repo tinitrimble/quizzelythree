@@ -63,6 +63,7 @@ class App extends Component {
           </div>
         ) : (
           <div className="Quiz-Display">
+            <h1 className ="Quiz-name">{quizInfo.quizheadline.quiztitle}</h1>
             <Counter
               totalscore={this.getCorrectAnswerCount()} 
               className="counterpos" />
