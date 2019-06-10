@@ -4,13 +4,13 @@ import Footer from '../layouts/Footer.js';
 import './Footerlinks.css';
 
 
-class About extends Component {
+class Disclaimer extends Component {
   render() {
     return(
-    <div className="About">
+    <div className="Disclaimer">
       <Header />
       <div id="blurb">
-        <p>This website has quizzes that you can take over again.</p>
+        <p>These quizzes cannot improve your life beyond the fleeting satisfaction of knowing you just took a quiz.</p>
       </div>
       <Footer />
     </div>
@@ -18,4 +18,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Disclaimer;

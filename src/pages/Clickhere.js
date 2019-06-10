@@ -4,13 +4,13 @@ import Footer from '../layouts/Footer.js';
 import './Footerlinks.css';
 
 
-class About extends Component {
+class Clickhere extends Component {
   render() {
     return(
-    <div className="About">
+    <div className="Clickhere">
       <Header />
       <div id="blurb">
-        <p>This website has quizzes that you can take over again.</p>
+        <p>You clicked here!</p>
       </div>
       <Footer />
     </div>
@@ -18,4 +18,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Clickhere;
