@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './Header.js';
-import Footer from './Footer.js';
+import Header from '../layouts/Header.js';
+import Footer from '../layouts/Footer.js';
 import Introquiz from './Introquiz.js';
 import Counter from './Counter.js';
 import Question from './Question.js';
 import './App.css';
-import quizInfo from './quiz.json';
+import quizInfo from '..quizzes/howwelltwinpeaks.json';
 import Results from './Results.js';
 
 class App extends Component {
