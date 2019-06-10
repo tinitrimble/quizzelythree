@@ -7,9 +7,9 @@ class Question extends Component {
   static propTypes = {
     text: PropTypes.string.isRequired,
     picture: PropTypes.string,
-    answers: PropTypes.arrayOf(PropTypes.shape({
-      option: PropTypes.string.isRequired,
-      correct: PropTypes.bool.isRequired
+    answers: PropTypes.arrayof(PropTypes.shape({
+      option: PropTypes.string.isrequired,
+      correct: PropTypes.bool.isrequired
     })),
     onClick: PropTypes.func.isRequired,
     questionNumber: PropTypes.number.isRequired,

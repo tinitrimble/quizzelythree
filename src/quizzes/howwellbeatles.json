@@ -1,0 +1,197 @@
+{
+  "questions": [
+    {
+      "text": "Which Beatle was referred to as The Quiet One?",
+      "picture": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-196766-3297187.jpg?crop=900:600&width=1910",
+      "answers": [
+        {
+          "option": "Ringo",
+          "correct": false 
+        },
+        {
+          "option": "John",
+          "correct": false 
+        },
+        {
+          "option": "George",
+          "correct": true 
+        },
+        {
+          "option": "Paul",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Who is the drummer for The Beatles?",
+      "answers": [
+        {
+          "option": "Ringo",
+          "correct": true 
+        },
+        {
+          "option": "George",
+          "correct": false 
+        },
+        {
+          "option": "Paul",
+          "correct": false 
+        },
+        {
+          "option": "John",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is John's last name?",
+      "picture": "https://i.pinimg.com/564x/99/19/15/991915341a94d8c93edaf3d54a247e0c.jpg",
+      "answers": [
+        {
+          "option": "Lenin",
+          "correct": false 
+        },
+        {
+          "option": "Lemon",
+          "correct": false 
+        },
+        {
+          "option": "Richards",
+          "correct": false 
+        },
+        {
+          "option": "Lennon",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "Who was The Beatles' original drummer?",
+      "answers": [
+        {
+          "option": "Stuart Sutcliffe",
+          "correct": false 
+        },
+        {
+          "option": "Pete Best",
+          "correct": true 
+        },
+        {
+          "option": "Gerry Marsden",
+          "correct": false 
+        },
+        {
+          "option": "Keith Moon",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Where in England are The Beatles from?",
+      "answers": [
+        {
+          "option": "Liverpool",
+          "correct": true 
+        },
+        {
+          "option": "Manchester",
+          "correct": false 
+        },
+        {
+          "option": "Blackpool",
+          "correct": false 
+        },
+        {
+          "option": "Leeds",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What was John's first wife's name?",
+      "answers": [
+        {
+          "option": "Yoko",
+          "correct": false 
+        },
+        {
+          "option": "Marianne",
+          "correct": false 
+        },
+        {
+          "option": "Jane",
+          "correct": false 
+        },
+        {
+          "option": "Cynthia",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is not a Beatles song?",
+      "picture": "http://www.alphabeatical.com/wp-content/uploads/2015/04/iamthewalrus.jpg",
+      "answers": [
+        {
+          "option": "Maxwell's Silver Hammer",
+          "correct": false 
+        },
+        {
+          "option": "Eggmen",
+          "correct": true 
+        },
+        {
+          "option": "Norwegian Wood",
+          "correct": false 
+        },
+        {
+          "option": "Everybody's Got Something To Hide Except For Me and My Monkey",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What was the name of The Beatles' manager?",
+      "answers": [
+        {
+          "option": "Brian Epstein",
+          "correct": true 
+        },
+        {
+          "option": "George Martin",
+          "correct": false 
+        },
+        {
+          "option": "Richard Lester",
+          "correct": false 
+        },
+        {
+          "option": "Phil Spector",
+          "correct": false 
+        }
+      ]
+    },
+    "results": [
+    {
+      "headline": "Do you even music, bruh?",
+      "resultpic": "http://gph.is/2pngSl4",
+      "summary": "It sounds like you don't know too much about The Beatles or music history. The good news is that it's never too late to find out. Happy exploring my friend."
+    },
+    {
+      "headline": "Solid fan",
+      "resultpic": "https://gph.is/1URDRwO",
+      "summary": "You aren't booking a trip to Liverpool anytime soon, but you know enough about The Beatles to impress any music nerd out there. Bravo!"
+    },
+    {
+      "headline": "Full Fledged Fanatic",
+      "resultpic": "http://gph.is/2bP6QG2",
+      "summary": "Wow you really know your stuff. You probably get super stoked whenever you find somebody who shares your vast knowledge and enthusiasm for The Beatles and music in general, and that is awesome. Congratulations."
+    }
+  ],
+  "quizheadline":
+  {
+    "quiztitle": "How well do you know The Beatles?",
+    "intropic": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Fabs.JPG",
+    "quizsummary": "Think you know this famous 60s band? Take the quiz to find out!"
+  }
+}
