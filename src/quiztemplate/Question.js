@@ -4,18 +4,18 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 class Question extends Component {
-  static propTypes = {
+   static propTypes = {
     text: PropTypes.string.isRequired,
     picture: PropTypes.string,
-    answers: PropTypes.arrayof(PropTypes.shape({
-      option: PropTypes.string.isrequired,
-      correct: PropTypes.bool.isrequired
+    answers: PropTypes.arrayOf(PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      correct: PropTypes.bool.isRequired
     })),
     onClick: PropTypes.func.isRequired,
     questionNumber: PropTypes.number.isRequired,
     userAnswer: PropTypes.shape({
-      option: PropTypes.string.isRequired,
-      correct: PropTypes.string.isRequired
+      label: PropTypes.string.isRequired,
+      correct: PropTypes.bool
     })
   }
   getQuestionClassName() {
