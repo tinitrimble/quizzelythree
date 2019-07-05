@@ -10,11 +10,15 @@ import Results from '../quiztemplate/results.js';
 
 export const query = graphql`
   query($slug: String!) {
-    dataJson(slug: { eq: $slug }) {
+    dataJson( slug: { eq: $slug } ) {
       id
       questions {
         text
         picture
+        answers {
+          option
+          correct
+        }
       }
       results {
         headline
@@ -64,15 +68,16 @@ class Quiz extends Component {
     const totalAnswered = this.state.userAnswers.length;
     if ( totalAnswered === totalQuestions ) {
       const score = this.getCorrectAnswerCount() / totalQuestions;
-      const resultNumber = Math.round((this.props.results.length - 1) * score);
+      const resultNumber = Math.round((this.quiz.results.length - 1) * score);
       return <Results
         headline={this.quiz.results[resultNumber].headline}
-        resultpic={this.quiz.props.results[resultNumber].resultpic}
+        resultpic={this.quiz.results[resultNumber].resultpic}
         summary={this.quiz.results[resultNumber].summary} />
     }
   }
   render() {
     const isQuizIntro = this.state.showIntro;
+    console.log(this.quiz);
     return (
       <div className="App">
         <Header />
