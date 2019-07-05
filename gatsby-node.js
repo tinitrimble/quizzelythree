@@ -1,3 +1,4 @@
+const path = require('path');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
@@ -22,13 +23,13 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         result.data.allDataJson.edges.forEach(({ node }) => {
-          const path = node.slug
+          const path = "quiz/" + node.slug;
           createPage({
             path,
             component: quizTemplate,
             context: {
-              path,
-            },
+              slug: node.slug
+            }
           })
         })
       })
