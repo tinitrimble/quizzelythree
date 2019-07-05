@@ -1,0 +1,17 @@
+.intropic {
+  height: 125px;
+}
+
+.quiz-list {
+  display: block;
+  margin: 10px 20px;
+  width: 450px;
+  padding: 10px;
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+.quiz-list img {
+  padding: 15px 0;
+  display: block;
+}

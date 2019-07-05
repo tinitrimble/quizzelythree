@@ -4,6 +4,7 @@ import Footer from "../layouts/Footer.js"
 import "./Footerlinks.css"
 import { Link } from "gatsby";
 import { graphql } from "gatsby"
+import './clickhere.css' 
 
 const Clickhere = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
@@ -13,7 +14,10 @@ const Clickhere = ({ data }) => {
       <div id="blurb">
         <p>
           {quizzes.map(quiz => (
-            <h1>{quiz.quizheadline.quiztitle}</h1>
+            <Link to={`/quiz/${quiz.slug}`} className="quiz-list">
+              {quiz.quizheadline.quiztitle}
+              <img src={quiz.quizheadline.intropic} alt="intropic" class="intropic" /> 
+            </Link>
           ))}
         </p>
         <div class="boxtest" />
@@ -28,6 +32,7 @@ export const query = graphql`
     allDataJson {
       edges {
         node {
+          slug
           quizheadline {
             quiztitle
             intropic
