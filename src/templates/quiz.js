@@ -5,7 +5,7 @@ import Footer from '../layouts/footer.js';
 import Introquiz from '../quiztemplate/introquiz.js';
 import Counter from '../quiztemplate/counter.js';
 import Question from '../quiztemplate/question.js';
-import '../pages/app.css';
+import './quiz.css';
 import Results from '../quiztemplate/results.js';
 
 export const query = graphql`

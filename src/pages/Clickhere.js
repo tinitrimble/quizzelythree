@@ -1,47 +1,21 @@
-import React from "react"
-import Header from "../layouts/Header.js"
-import Footer from "../layouts/Footer.js"
-import "./Footerlinks.css"
-import { Link } from "gatsby";
-import { graphql } from "gatsby"
-import './clickhere.css' 
+import React, { Component } from 'react';
+import Header from '../layouts/Header.js';
+import Footer from '../layouts/Footer.js';
+import './Footerlinks.css';
 
-const Clickhere = ({ data }) => {
-  const quizzes = data.allDataJson.edges.map(edge => edge.node); 
-  return (
-    <div className="Clickhere">
+
+class Clickhere extends Component {
+  render() {
+    return(
+    <div className="Disclaimer">
       <Header />
       <div id="blurb">
-        <p>
-          {quizzes.map(quiz => (
-            <Link to={`/quiz/${quiz.slug}`} className="quiz-list">
-              {quiz.quizheadline.quiztitle}
-              <img src={quiz.quizheadline.intropic} alt="intropic" class="intropic" /> 
-            </Link>
-          ))}
-        </p>
-        <div class="boxtest" />
+        <p>These quizzes cannot improve your life beyond the fleeting satisfaction of knowing you just took a quiz.</p>
       </div>
       <Footer />
     </div>
-  )
+    )
+  }
 }
 
-export const query = graphql`
-  query GetCorrectQuizQuery {
-    allDataJson {
-      edges {
-        node {
-          slug
-          quizheadline {
-            quiztitle
-            intropic
-            quizsummary
-          }
-        }
-      }
-    }
-  }
-`
-
-export default Clickhere
+export default Clickhere;

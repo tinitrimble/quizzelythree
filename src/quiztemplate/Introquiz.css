@@ -10,7 +10,7 @@
   margin-top: 5px;
   color: #59605f;
   text-align: center;
-  display: inline-block;
+  display: block;
 }
 
 .App .sum {
