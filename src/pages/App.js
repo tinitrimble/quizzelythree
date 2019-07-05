@@ -5,7 +5,7 @@ import Introquiz from '../quiztemplate/Introquiz.js';
 import Counter from '../quiztemplate/Counter.js';
 import Question from '../quiztemplate/Question.js';
 import './App.css';
-import quizInfo from '../data/howwellbeatles.json';
+import quiz from '../data/howwellbeatles.json';
 import Results from '../quiztemplate/Results.js';
 
 class App extends Component {
@@ -37,15 +37,15 @@ class App extends Component {
       .length;
   }
   getResults() {
-    const totalQuestions = quizInfo.questions.length;
+    const totalQuestions = quiz.questions.length;
     const totalAnswered = this.state.userAnswers.length;
     if ( totalAnswered === totalQuestions ) {
       const score = this.getCorrectAnswerCount() / totalQuestions;
-      const resultNumber = Math.round((quizInfo.results.length - 1) * score);
+      const resultNumber = Math.round((this.props.results.length - 1) * score);
       return <Results
-        headline={quizInfo.results[resultNumber].headline}
-        resultpic={quizInfo.results[resultNumber].resultpic}
-        summary={quizInfo.results[resultNumber].summary} />
+        headline={quiz.results[resultNumber].headline}
+        resultpic={quiz.props.results[resultNumber].resultpic}
+        summary={quiz.results[resultNumber].summary} />
     }
   }
   render() {
@@ -56,18 +56,18 @@ class App extends Component {
         {isQuizIntro ? (
           <div className="Introduction">
             <Introquiz
-              quiztitle={quizInfo.quizheadline.quiztitle}
-              intropic={quizInfo.quizheadline.intropic}
-              quizsummary={quizInfo.quizheadline.quizsummary}
+              quiztitle={quiz.quizheadline.quiztitle}
+              intropic={quiz.quizheadline.intropic}
+              quizsummary={quiz.quizheadline.quizsummary}
               onClick={this.handleQuizStart}/>
           </div>
         ) : (
           <div className="Quiz-Display">
-            <h1 className ="Quiz-name">{quizInfo.quizheadline.quiztitle}</h1>
+            <h1 className ="Quiz-name">{quiz.quizheadline.quiztitle}</h1>
             <Counter
               totalscore={this.getCorrectAnswerCount()} 
               className="counterpos" />
-            {quizInfo.questions.map((question, index) =>
+            {quiz.questions.map((question, index) =>
               <Question
                 key={index}
                 questionNumber={index}
