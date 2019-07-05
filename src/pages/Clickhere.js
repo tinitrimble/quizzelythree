@@ -3,7 +3,7 @@ import Header from '../layouts/Header.js';
 import Footer from '../layouts/Footer.js';
 import './Footerlinks.css';
 import manifest from './quiz-manifest.json';
-import PropTypes from 'prop-types';
+import { graphql } from 'gatsby'
 
 class Clickhere extends Component {
   render() {
@@ -15,6 +15,7 @@ class Clickhere extends Component {
           <h1>{quiz.quiztitle}</h1>
         ))}</p>
         <div class="boxtest">
+          <img src='{data.site.siteMetadata.picture}' alt="intropic"></img>
         </div>
       </div>
       <Footer />
@@ -22,5 +23,6 @@ class Clickhere extends Component {
     )
   }
 }
+
 
 export default Clickhere;
