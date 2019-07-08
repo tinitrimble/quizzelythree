@@ -93,7 +93,9 @@ class Quiz extends Component {
           </div>
         ) : (
           <div className="Quiz-Display">
-            <h1 className="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
+            <div className="qtitle">
+              <h1 className="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
+            </div>
             <Counter
               totalscore={this.getCorrectAnswerCount()}
               className="counterpos"
