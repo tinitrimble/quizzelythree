@@ -14,7 +14,6 @@
 }
 
 .result-box img {
-  width: 75%;
   max-height: 200px;
   border-radius: 5px;
 }
@@ -46,9 +45,6 @@
     max-width: 800px;
     min-width: 320px;
   }
-  .result-box .img {
-    min-width: 40px;
-  }
 }
 
 @media (max-width:600px) {
@@ -56,8 +52,11 @@
     border-radius: 0;
   }
   .result-box p {
-  padding: 20px 40px;
-  text-align: left;
+    padding: 20px 40px;
+    text-align: left;
+  }
+  .result-box .img {
+    max-height: 40px;
   }
 }
 

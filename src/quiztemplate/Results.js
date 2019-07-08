@@ -12,7 +12,7 @@ class Results extends Component {
   }
   componentDidMount() {
     window.setTimeout(() => {
-      scrollToElement('.result-box', {
+      scrollToElement('.resultblurb', {
         align: 'middle',
         duration: 500
       })
@@ -24,7 +24,7 @@ class Results extends Component {
       <h1>You scored: {this.props.score}</h1>
       <h2>{this.props.headline}</h2>
       <img src={this.props.resultpic} alt="resultpic" />
-      <p>{this.props.summary}</p>
+      <p className="resultblurb">{this.props.summary}</p>
       </div>
     )
   }
