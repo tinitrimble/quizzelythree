@@ -1,20 +1,21 @@
 .App {
   background-color: #white;
+  margin-bottom: 28px;
 }
 .App .Introduction {
   display: inline;
 }
 
 .App .Quiz-Display {
-  margin-bottom: 46px;
+  margin-bottom: 25px;
 }
 
 .App .Quiz-name {
-  font-size: 34px;
+  font-size: 26px;
   color: #59605f;
   text-align: center;
   display: inline-block;
   position: relative;
-  margin: 25px 20px 25px 125px;
+  margin: 25px 20px 10px 261px;
 }
 

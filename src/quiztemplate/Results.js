@@ -12,7 +12,7 @@ class Results extends Component {
   }
   componentDidMount() {
     window.setTimeout(() => {
-      scrollToElement('.share-this', {
+      scrollToElement('.result-box', {
         align: 'middle',
         duration: 500
       })

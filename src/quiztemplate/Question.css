@@ -2,24 +2,24 @@
   border: 1px #6ec8b2 solid;
   padding: 15px 0;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   text-align: center;
   display: block;
   color: #59605f;
 }
 
 .question h3 {
-  font-size: 26px;
+  font-size: 20px;
   margin: 0;
 }
  
 .question img {
   max-width: 50%;
-  max-height: 300px;
+  max-height: 200px;
   text-align: center;
   display: inline-block;
   margin: 20px 0 20px 0;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .question .possible-choices {
@@ -33,7 +33,7 @@
   padding: 5px;
   width: 60%;
   text-align: left;
-  border-radius: 20px; 
+  border-radius: 5px; 
 }
 
 .question .possible-choices .choice:hover {

@@ -1,16 +1,16 @@
-import { graphql } from "gatsby";
-import React, { Component } from 'react';
-import Header from '../layouts/header.js';
-import Footer from '../layouts/footer.js';
-import Introquiz from '../quiztemplate/introquiz.js';
-import Counter from '../quiztemplate/counter.js';
-import Question from '../quiztemplate/question.js';
-import './quiz.css';
-import Results from '../quiztemplate/results.js';
+import { graphql } from "gatsby"
+import React, { Component } from "react"
+import Header from "../layouts/header.js"
+import Footer from "../layouts/footer.js"
+import Introquiz from "../quiztemplate/introquiz.js"
+import Counter from "../quiztemplate/counter.js"
+import Question from "../quiztemplate/question.js"
+import "./quiz.css"
+import Results from "../quiztemplate/results.js"
 
 export const query = graphql`
   query($slug: String!) {
-    dataJson( slug: { eq: $slug } ) {
+    dataJson(slug: { eq: $slug }) {
       id
       questions {
         text
@@ -36,8 +36,8 @@ export const query = graphql`
 
 class Quiz extends Component {
   constructor(props) {
-    super (props);
-    this.quiz = this.props.data.dataJson; 
+    super(props)
+    this.quiz = this.props.data.dataJson
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this)
     this.handleQuizStart = this.handleQuizStart.bind(this)
   }
@@ -45,39 +45,40 @@ class Quiz extends Component {
     this.setState({
       correctAnswers: 0,
       userAnswers: [],
-      showIntro: true
+      showIntro: true,
     })
   }
   handleQuizStart() {
     this.setState({ showIntro: false })
   }
   handleAnswerSelected(answer, questionNumber) {
-    const updatedUserAnswers = this.state.userAnswers.slice();
+    const updatedUserAnswers = this.state.userAnswers.slice()
     updatedUserAnswers[questionNumber] = answer
     this.setState({
-      userAnswers: updatedUserAnswers
-    });
+      userAnswers: updatedUserAnswers,
+    })
   }
   getCorrectAnswerCount() {
-    return this.state.userAnswers
-      .filter(answer => answer.correct)
-      .length;
+    return this.state.userAnswers.filter(answer => answer.correct).length
   }
   getResults() {
-    const totalQuestions = this.quiz.questions.length;
-    const totalAnswered = this.state.userAnswers.length;
-    if ( totalAnswered === totalQuestions ) {
-      const score = this.getCorrectAnswerCount() / totalQuestions;
-      const resultNumber = Math.round((this.quiz.results.length - 1) * score);
-      return <Results
-        headline={this.quiz.results[resultNumber].headline}
-        resultpic={this.quiz.results[resultNumber].resultpic}
-        summary={this.quiz.results[resultNumber].summary} />
+    const totalQuestions = this.quiz.questions.length
+    const totalAnswered = this.state.userAnswers.length
+    if (totalAnswered === totalQuestions) {
+      const score = this.getCorrectAnswerCount() / totalQuestions
+      const resultNumber = Math.round((this.quiz.results.length - 1) * score)
+      return (
+        <Results
+          headline={this.quiz.results[resultNumber].headline}
+          resultpic={this.quiz.results[resultNumber].resultpic}
+          summary={this.quiz.results[resultNumber].summary}
+        />
+      )
     }
   }
   render() {
-    const isQuizIntro = this.state.showIntro;
-    console.log(this.quiz);
+    const isQuizIntro = this.state.showIntro
+    console.log(this.quiz)
     return (
       <div className="App">
         <Header />
@@ -87,15 +88,17 @@ class Quiz extends Component {
               quiztitle={this.quiz.quizheadline.quiztitle}
               intropic={this.quiz.quizheadline.intropic}
               quizsummary={this.quiz.quizheadline.quizsummary}
-              onClick={this.handleQuizStart}/>
+              onClick={this.handleQuizStart}
+            />
           </div>
         ) : (
           <div className="Quiz-Display">
-            <h1 className ="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
+            <h1 className="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
             <Counter
-              totalscore={this.getCorrectAnswerCount()} 
-              className="counterpos" />
-            {this.quiz.questions.map((question, index) =>
+              totalscore={this.getCorrectAnswerCount()}
+              className="counterpos"
+            />
+            {this.quiz.questions.map((question, index) => (
               <Question
                 key={index}
                 questionNumber={index}
@@ -103,15 +106,16 @@ class Quiz extends Component {
                 picture={question.picture}
                 answers={question.answers}
                 onClick={this.handleAnswerSelected}
-                userAnswer={this.state.userAnswers[index]}/>
-            )}
+                userAnswer={this.state.userAnswers[index]}
+              />
+            ))}
           </div>
         )}
         {this.getResults()}
-          <Footer />
+        <Footer />
       </div>
     )
   }
 }
 
-export default Quiz;
+export default Quiz
