@@ -1,0 +1,199 @@
+{
+  "slug": "disney-side-characters",
+  "questions": [
+    {
+      "text": "Which of the following is not one of the Seven Dwarfs from Snow White?",
+      "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwj0vM3qxKvjAhUPG3wKHcLMA4EQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSnow_White_and_the_Seven_Dwarfs_(1937_film)&psig=AOvVaw2aIhJy5M5A0TgX1zJYw1nY&ust=1562888851307741",
+      "answers": [
+        {
+          "option": "Bashful",
+          "correct": false 
+        },
+        {
+          "option": "Angry",
+          "correct": true 
+        },
+        {
+          "option": "Doc",
+          "correct": false 
+        },
+        {
+          "option": "Sneezy",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What was Bambi's girlfriend's name?",
+      "answers": [
+        {
+          "option": "Faline",
+          "correct": true 
+        },
+        {
+          "option": "Fiona",
+          "correct": false 
+        },
+        {
+          "option": "Farine",
+          "correct": false 
+        },
+        {
+          "option": "Flower",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the name of Ariel's seagull friend?",
+      "picture": "https://gph.is/XHZDuQ",
+      "answers": [
+        {
+          "option": "Flotsam",
+          "correct": false 
+        },
+        {
+          "option": "Sebastian",
+          "correct": false 
+        },
+        {
+          "option": "Scuttle",
+          "correct": true 
+        },
+        {
+          "option": "Grimsby",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is Aladdin's sidekick monkey's name?",
+      "answers": [
+        {
+          "option": "Iago",
+          "correct": false 
+        },
+        {
+          "option": "Abu",
+          "correct": true 
+        },
+        {
+          "option": "Razoul",
+          "correct": false 
+        },
+        {
+          "option": "Lefou",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the name of Pochahontas's best friend?",
+      "answers": [
+        {
+          "option": "Nakoma",
+          "correct": true 
+        },
+        {
+          "option": "Kocoum",
+          "correct": false 
+        },
+        {
+          "option": "Ratcliffe",
+          "correct": false 
+        },
+        {
+          "option": "Keketa",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Which of the following was not one of the Gargoyles in The Hunchback of Notre Dame?",
+      "answers": [
+        {
+          "option": "Hugo",
+          "correct": false 
+        },
+        {
+          "option": "Laverne",
+          "correct": false 
+        },
+        {
+          "option": "Victor",
+          "correct": false 
+        },
+        {
+          "option": "Andrew",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "What is the name of this Danny DeVito-voiced character from Hercules?",
+      "picture": "https://gph.is/1aSe4kz",
+      "answers": [
+        {
+          "option": "Hermes",
+          "correct": false 
+        },
+        {
+          "option": "Clotho",
+          "correct": false 
+        },
+        {
+          "option": "Tate",
+          "correct": false 
+        },
+        {
+          "option": "Phil",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "Who is this Eddie Murphy voiced dragon?",
+      "answers": [
+        {
+          "option": "Shang",
+          "correct": false 
+        },
+        {
+          "option": "Chi Fu",
+          "correct": false 
+        },
+        {
+          "option": "Mushu",
+          "correct": true 
+        },
+        {
+          "option": "Khan",
+          "correct": false 
+        }
+      ]
+    }
+    ],
+    "results": [
+    {
+      "headline": "You don't know anything about Disney at all",
+      "resultpic": "https://gph.is/1sz0wYt",
+      "summary": "Wow yeah so you could stand to watch a couple of Disney movies. You really didn't get that at all."
+    },
+    {
+      "headline": "Ok so you know a few things",
+      "resultpic": "http://gph.is/11RTQpz",
+      "summary": "You know your way around a Disney movie or two and aren't above throwing down on a little triva when it comes to some lesser known classics. Keep watching!"
+    },
+    {
+      "headline": "Disney Superhero",
+      "resultpic": "http://gph.is/1T2KwmU",
+      "summary": "You are the ultimate Disney Master! You know everything there is to know about all things Disney and I'll be you anything you make a point to go to the parts with some regularity. Am I right? Go forth and brag to your friends of your endless Disney knowledge."
+    }
+  ],
+  "quizheadline":
+  {
+    "quiztitle": "How well can you identify these Disney side characters?",
+    "intropic": "",
+    "quizsummary": "Sure you know your princesses and villains, but what about the more obscure characters? Take this quiz to find out!"
+  }
+}
