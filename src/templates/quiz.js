@@ -1,12 +1,12 @@
 import { graphql } from "gatsby"
 import React, { Component } from "react"
-import Header from "../layouts/header.js"
-import Footer from "../layouts/footer.js"
-import Introquiz from "../quiztemplate/introquiz.js"
-import Counter from "../quiztemplate/counter.js"
-import Question from "../quiztemplate/question.js"
-import "./quiz.css"
-import Results from "../quiztemplate/results.js"
+import Header from "../layouts/Header.js"
+import Footer from "../layouts/Footer.js"
+import Introquiz from "../quiztemplate/Introquiz.js"
+import Counter from "../quiztemplate/Counter.js"
+import Question from "../quiztemplate/Question.js"
+import "./Quiz.css"
+import Results from "../quiztemplate/Results.js"
 
 export const query = graphql`
   query($slug: String!) {

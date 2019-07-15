@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link';
 import logo from '../images/q2.svg';
-import './header.css';
+import './Header.css';
 
 const Header = () => (
   <header className="global" ui-view="header" autoscroll="true">

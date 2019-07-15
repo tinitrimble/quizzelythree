@@ -4,7 +4,7 @@ import Footer from "../layouts/Footer.js"
 import "../layouts/Footerlinks.css"
 import { Link } from "gatsby";
 import { graphql } from "gatsby"
-import '../layouts/index.css' 
+import '../layouts/Index.css' 
 
 const Clickhere = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
