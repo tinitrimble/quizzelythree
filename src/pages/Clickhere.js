@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../layouts/Header.js';
 import Footer from '../layouts/Footer.js';
-import './Footerlinks.css';
+import '../layouts/Footerlinks.css';
 
 
 class Clickhere extends Component {
