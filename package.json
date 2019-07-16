@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "publish": "gatsby build; aws s3 sync ./public/ s3://quizzelydoo.com",
+    "publish": "gatsby build; aws s3 sync ./public/ s3://quizzelydoo.com; aws cloudfront create-invalidation --distribution-id ENWP2URHR1WZR --paths /*",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
