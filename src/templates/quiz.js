@@ -78,7 +78,6 @@ class Quiz extends Component {
   }
   render() {
     const isQuizIntro = this.state.showIntro
-    console.log(this.quiz)
     return (
       <div className="App">
         <Header />
