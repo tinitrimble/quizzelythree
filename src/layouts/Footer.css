@@ -7,7 +7,8 @@
   bottom: 0;
   width: 100%;
   margin-top: 50px;
-}
+  box-shadow: -2px -2px 1px 1px hsla(0, 0%, 0%, 0.2);
+} 
 
 .footerlinks {
   text-align: center;
@@ -15,14 +16,15 @@
 
 .footer a {
     text-decoration: none;
-    color: blue;
+    color: #002921;
     text-align: center;
     transition: margin-left 0.4s ease-in-out;
     display: inline-block;
 }
  
 .footer a:hover {
-    color: #f97131;
+    color: black;
+    text-decoration: underline;
   }
 
 .footer .logo {
@@ -54,5 +56,11 @@
   }
   .footer a:nth-child(3) {
     margin-right: 1px;
+  }
+}
+
+@media(max-width: 600px) {
+  .footer {
+    box-shadow: none;
   }
 }

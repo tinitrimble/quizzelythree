@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:900&display=swap');
+
 body {
   margin: 0 0 0 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+h3 {
+  margin: 0 auto;
+  font: Vollkorn-black;
+  color: #002921;
 }
 
 .intropic {
@@ -12,12 +21,41 @@ body {
   display: block;
   margin: 10px 20px;
   width: 450px;
-  padding: 10px;
+  padding: 18px;
   text-decoration: none;
-  border: solid 1px black;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  font-weight: 300;
+  color: #3e4a48;
+}
+
+.quiz-list:hover {
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.4);
 }
 
 .quiz-list img {
   padding: 15px 0;
   display: block;
 }
+
+#blurb {
+  margin: 50px 0 0 120px;
+}
+
+
+@media (max-width: 600px) {
+  h3 {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .quiz-list {
+    width: 230px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  #blurb {
+    border-top: 1px solid #9116fc;
+    margin: 0 auto;
+  }
+}
+
+

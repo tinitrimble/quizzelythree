@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
 .global {
   background-color: #fff;
   height: 90px;
-  border-bottom: 1px solid #6EC8B2;
+  box-shadow: 0 4px 2px -2px hsla(0, 0%, 0%, 0.2);
+  border-bottom: 1px solid #9116fc;
 }  
 
 .logo {
@@ -12,11 +15,13 @@
 
 .page-name {
   text-decoration: none;
+  font: 'Amatic';
   font-weight: 200;
-  color: #FFA449;
+  color: #002921;
   vertical-align: middle;
   padding: 16px 2px 2px 2px;
   font-size: 36px;
+  display: inline;
 }
 
 .searchbar {
@@ -34,19 +39,11 @@
   font-size: 16px;
 }
 
-.page-name {
-  display: inline;
-  color: #ffa449;
-  vertical-align: middle;
-  padding: 16px 2px 2px 2px;
-  font-size: 36px;
-}
-
-
 @media (max-width: 600px) {
   .global {
     display: inline;
     height: 50px;
+    box-shadow: none;
     border-bottom: none;
   }
 
@@ -56,7 +53,6 @@
 
   .page-name {
     font-size: 22px;
-    font-weight: 200;
   }
 
   .searchbar {

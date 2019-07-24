@@ -1,6 +1,5 @@
 .App {
   background-color: #white;
-  margin-bottom: 28px;
 }
 .App .Introduction {
   display: inline;
@@ -12,11 +11,11 @@
 
 .App .Quiz-name {
   font-size: 26px;
-  color: #59605f;
   text-align: center;
   display: inline-block;
   position: relative;
   margin: 26px 0 16px 26px;
+  color: #002921;
 }
 
 
@@ -26,7 +25,7 @@
     margin: 15px 20px 15px 30px;
   }
   .App .qtitle {
-    border-top: 1px solid #6EC8B2;
+    border-top: 1px solid #9116fc;
     width: 100%;
   }
 }

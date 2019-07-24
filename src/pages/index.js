@@ -6,12 +6,13 @@ import { Link } from "gatsby";
 import { graphql } from "gatsby"
 import '../layouts/index.css' 
 
-const Clickhere = ({ data }) => {
+const Quizlist = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
   return (
-    <div className="Clickhere">
+    <div className="Quizlist">
       <Header />
       <div id="blurb">
+        <h3>Welcome to Quizzelydoo! Enjoy your quiz break.</h3>
         <p>
           {quizzes.map(quiz => (
             <Link to={`/quiz/${quiz.slug}`} className="quiz-list">
@@ -44,4 +45,4 @@ export const query = graphql`
   }
 `
 
-export default Clickhere
+export default Quizlist
