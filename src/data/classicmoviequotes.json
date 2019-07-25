@@ -3,7 +3,7 @@
   "questions": [
     {
       "text": "What movie is this quote from: Alright Mr. DeMille, I'm ready for my close-up.",
-      "picture": "https://gph.is/208Ruge",
+      "picture": "https://media.giphy.com/media/hltU9Igv2hZGE/giphy.gif",
       "answers": [
         {
           "option": "Casablanca",
@@ -46,7 +46,7 @@
     },
     {
       "text": "What movie is this quote from: We all want to help one another. Human beings are like that. We want to live by each other’s happiness, not by each other’s misery.",
-      "picture": "https://gph.is/1ERLnX2",
+      "picture": "https://media.giphy.com/media/7L4XXgq6kktlm/giphy.gif",
       "answers": [
         {
           "option": "Dr. Strangelove",
@@ -131,7 +131,7 @@
     },
     {
       "text": "Who said this: The time to make up your mind about people is never. ",
-      "picture": "https://gph.is/1GFTwuJ",
+      "picture": "https://media.giphy.com/media/UQnGDaFuXQ8NdDaM6O/giphy.gif",
       "answers": [
         {
           "option": "Macaulay Connor",
@@ -176,17 +176,17 @@
     "results": [
     {
       "headline": "Not this time!",
-      "resultpic": "https://gph.is/g/4zwG76n",
+      "resultpic": "https://media.giphy.com/media/9tovFud6tYz04/giphy.gif",
       "summary": "You might enjoy films, but your recall for famous movie quotes is perhaps somewhat lacking. Go see a Star War."
     },
     {
       "headline": "Pretty decent",
-      "resultpic": "https://gph.is/2I6hXvT",
+      "resultpic": "https://media.giphy.com/media/1ynBJR341fbTBDSvBL/giphy.gif",
       "summary": "You know the classics really well, but when it comes to the more esoteric quotes maybe not so much. Regardless I'm still proud of you."
     },
     {
       "headline": "Film buff",
-      "resultpic": "https://gph.is/g/E3lpkJx",
+      "resultpic": "https://media.giphy.com/media/Y8cdPle4eIyPu/giphy.gif",
       "summary": "Have you ever taken any film courses? It sure seems like it. You sure know your stuff!"
     }
   ],

@@ -3,7 +3,7 @@
   "questions": [
     {
       "text": "Which of the following is not one of the Seven Dwarfs from Snow White?",
-      "picture": "https://gph.is/1JbTitI",
+      "picture": "https://media.giphy.com/media/ObWUvZOqum1NK/giphy.gif",
       "answers": [
         {
           "option": "Bashful",
@@ -46,7 +46,7 @@
     },
     {
       "text": "What is the name of Ariel's seagull friend?",
-      "picture": "https://gph.is/1zwOIBk",
+      "picture": "https://media.giphy.com/media/MqxRiLcrHj03e/giphy.gif",
       "answers": [
         {
           "option": "Flotsam",
@@ -131,7 +131,7 @@
     },
     {
       "text": "What is the name of this Danny DeVito-voiced character from Hercules?",
-      "picture": "https://gph.is/1aSe4kz",
+      "picture": "https://media.giphy.com/media/11JoQorX5j6zbG/giphy.gif",
       "answers": [
         {
           "option": "Hermes",
@@ -176,17 +176,17 @@
     "results": [
     {
       "headline": "You don't know anything about Disney at all",
-      "resultpic": "https://gph.is/1sz0wYt",
+      "resultpic": "http://giphygifs.s3.amazonaws.com/media/CSRlrzDb0JX2w/giphy.gif",
       "summary": "Wow yeah so you could stand to watch a couple of Disney movies. You really didn't get that at all."
     },
     {
       "headline": "Ok so you know a few things",
-      "resultpic": "http://gph.is/11RTQpz",
+      "resultpic": "http://giphygifs.s3.amazonaws.com/media/6HiYDV1honk5i/giphy.gif",
       "summary": "You know your way around a Disney movie or two and aren't above throwing down on a little triva when it comes to some lesser known classics. Keep watching!"
     },
     {
       "headline": "Disney Superhero",
-      "resultpic": "http://gph.is/1T2KwmU",
+      "resultpic": "https://media.giphy.com/media/It3ZU6cM0i6Pu/giphy.gif",
       "summary": "You are the ultimate Disney Master! You know everything there is to know about all things Disney and I'll be you anything you make a point to go to the parts with some regularity. Am I right? Go forth and brag to your friends of your endless Disney knowledge."
     }
   ],
