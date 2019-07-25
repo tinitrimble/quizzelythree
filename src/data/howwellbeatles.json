@@ -3,7 +3,7 @@
   "questions": [
     {
       "text": "Which Beatle was referred to as The Quiet One?",
-      "picture": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-196766-3297187.jpg?crop=900:600&width=1910",
+      "picture": "https://media.giphy.com/media/3ohzdDDs0TcN7ljuec/giphy.gif",
       "answers": [
         {
           "option": "Ringo",
@@ -46,7 +46,7 @@
     },
     {
       "text": "What is John's last name?",
-      "picture": "https://i.pinimg.com/564x/99/19/15/991915341a94d8c93edaf3d54a247e0c.jpg",
+      "picture": "https://media.giphy.com/media/gkkwRg2Mbgzbq/giphy.gif",
       "answers": [
         {
           "option": "Lenin",
@@ -131,7 +131,7 @@
     },
     {
       "text": "Which of the following is not a Beatles song?",
-      "picture": "http://www.alphabeatical.com/wp-content/uploads/2015/04/iamthewalrus.jpg",
+      "picture": "http://giphygifs.s3.amazonaws.com/media/iHxAfSx00axY4/giphy.gif",
       "answers": [
         {
           "option": "Maxwell's Silver Hammer",
@@ -176,17 +176,17 @@
     "results": [
     {
       "headline": "Do you even music, bruh?",
-      "resultpic": "http://gph.is/2pngSl4",
+      "resultpic": "https://media.giphy.com/media/l553EJcE3Mrqo/giphy.gif",
       "summary": "It sounds like you don't know too much about The Beatles or music history. The good news is that it's never too late to find out. Happy exploring my friend."
     },
     {
       "headline": "Solid fan",
-      "resultpic": "https://gph.is/1URDRwO",
+      "resultpic": "https://media.giphy.com/media/DKpvvoIEFI6UE/giphy.gif",
       "summary": "You aren't booking a trip to Liverpool anytime soon, but you know enough about The Beatles to impress any music nerd out there. Bravo!"
     },
     {
       "headline": "Full Fledged Fanatic",
-      "resultpic": "http://gph.is/2bP6QG2",
+      "resultpic": "https://media.giphy.com/media/2YnZ6SbKOxDKE/giphy.gif",
       "summary": "Wow you really know your stuff. You probably get super stoked whenever you find somebody who shares your vast knowledge and enthusiasm for The Beatles and music in general, and that is awesome. Congratulations."
     }
   ],

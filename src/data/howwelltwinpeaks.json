@@ -3,6 +3,7 @@
   "questions": [
     {
       "text": "What is the name of the hotel in Twin Peaks?",
+      "picture": "https://media.giphy.com/media/xUPGcBPFU8CoHkEY5W/giphy.gif",
       "answers": [
         {
           "option": "The Best Western Hotel",
@@ -66,16 +67,16 @@
     },
 
     {
-      "text": "Has James always been cool?",
+      "text": "Is James cool?",
       "picture": "https://vignette.wikia.nocookie.net/twinpeaks/images/9/90/JamesRoadhouse.png/revision/latest?cb=20170807173150",
       "answers": [
         {
           "option": "James has always been cool",
-          "correct": false
+          "correct": true
         },
         {
           "option": "James is the worst one",
-          "correct": true
+          "correct": false
         }
       ]
     },
@@ -169,6 +170,7 @@
     },
     {
       "text": "Which of the following is not a clue from the Giant?",
+      "picture": "https://media.giphy.com/media/numQCFBcLdsAg/giphy.gif",
       "answers": [
         {
           "option": "When you see me again, it won't be me",
@@ -232,6 +234,7 @@
     },
     {
       "text": "What character does actor Harry Dean Stanton play?",
+      "picture": "https://media.giphy.com/media/3oKIPlMNGJxZgUA8fu/giphy.gif",
       "answers": [
         {
           "option": "Steven Burnett",
