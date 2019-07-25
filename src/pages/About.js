@@ -9,8 +9,8 @@ class About extends Component {
     return(
     <div className="About">
       <Header />
-      <div id="blurb">
-        <p>This website has quizzes that you can take over again.</p>
+      <div id="Explanatorybit">
+        <p>Take quizzes for no reason here.</p>
       </div>
       <Footer />
     </div>

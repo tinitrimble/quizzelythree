@@ -9,8 +9,8 @@ class Disclaimer extends Component {
     return(
     <div className="Disclaimer">
       <Header />
-      <div id="blurb">
-        <p>These quizzes cannot improve your life beyond the fleeting satisfaction of knowing you just took a quiz.</p>
+      <div id="Explanatorybit">
+        <p>These quizzes mean nothing.</p>
       </div>
       <Footer />
     </div>

@@ -1,7 +1,9 @@
-#blurb {
-  font-size: 24px;
-  margin: 100px 100px 325px 100px;
-  color: #f4426e;
-  padding: 10px 10px;
+#Explanatorybit {
+  padding: 228px;
 }
-  
+
+@media(max-width: 600px) {
+  #Explanatorybit {
+    padding: 175px 40px;
+  }
+}

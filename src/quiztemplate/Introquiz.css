@@ -10,7 +10,6 @@
 
 .App .quiz-title .quiz-name {
   font-size: 34px;
-  margin-top: 5px;
   text-align: center;
   display: block;
   color: #002921;
@@ -90,7 +89,7 @@
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   .App .Quiz-pic {
     max-height: 150px;
     text-align: center;
@@ -98,8 +97,12 @@
   .quiz-title {
     text-align: center;
     margin: 0 10px 0 10px;
+    font-size: 18px;
   }
   .App .begin-quiz {
     margin-bottom: 0px;
+  }
+  .App .quiz-title .quiz-name {
+    font-size: 28px;
   }
 }

@@ -6,22 +6,21 @@ import { Link } from "gatsby";
 import { graphql } from "gatsby"
 import '../layouts/index.css' 
 
-const Quizlist = ({ data }) => {
+const Mainpage = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
   return (
     <div className="Quizlist">
       <Header />
       <div id="blurb">
         <h3>Welcome to Quizzelydoo! Enjoy your quiz break.</h3>
-        <p>
+        <div className="Thequizzes">
           {quizzes.map(quiz => (
-            <Link to={`/quiz/${quiz.slug}`} className="quiz-list">
+            <Link to={`/quiz/${quiz.slug}`} className="quiz-item">
               {quiz.quizheadline.quiztitle}
               <img src={quiz.quizheadline.intropic} alt="intropic" class="intropic" /> 
             </Link>
           ))}
-        </p>
-        <div class="boxtest" />
+        </div>
       </div>
       <Footer />
     </div>
@@ -45,4 +44,4 @@ export const query = graphql`
   }
 `
 
-export default Quizlist
+export default Mainpage
