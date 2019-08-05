@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './Counter.css';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 class Counter extends Component {
   static propTypes = {
@@ -8,12 +8,23 @@ class Counter extends Component {
   }
   render() {
     return (
-      <div className="counter-info">
-        <p>Your score is: {this.props.totalscore}</p>
-      </div>
+      <Counter.Score>
+        Your score is: {this.props.totalscore}
+      </Counter.Score>
     )
   }
 }
+
+Counter.Score = styled.div`
+  border: 1px solid #9116fc;
+  background-color: white;
+  color: black;
+  color: #59605f;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+`
+
 
 
 

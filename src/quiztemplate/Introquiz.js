@@ -40,6 +40,10 @@ Introquiz.Header = styled.h1`
 
 Introquiz.Quizpic = styled.img`
   border-radius: 10px;
+  max-height: 260px;
+  margin-left: 0 auto;
+  text-align: center;
+  margin-right: 0 auto;
 `
 
 Introquiz.Summary = styled.div`
@@ -47,7 +51,7 @@ Introquiz.Summary = styled.div`
   color: #3e4a48;
 `
 
-Introquiz.Begin = styled(Button)`
+Introquiz.Begin = styled.button`
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #6EC8B2;
