@@ -1,21 +1,29 @@
-import React, { Component } from 'react';
-import Header from '../layouts/Header.js';
-import Footer from '../layouts/Footer.js';
-import '../layouts/Footerlinks.css';
+import React, { Component } from 'react'
+import Header from '../layouts/Header.js'
+import Footer from '../layouts/Footer.js'
+import styled from 'styled-components'
 
 
 class Clickhere extends Component {
   render() {
     return(
-    <div className="Disclaimer">
+    <Clickhere.Disclaimer>
       <Header />
-      <div id="Explanatorybit">
-        <p>You clicked here.</p>
-      </div>
+      <Clickhere.Explanatorybit>
+        You clicked here.
+      </Clickhere.Explanatorybit>
       <Footer />
-    </div>
+    </Clickhere.Disclaimer>
     )
   }
 }
+
+Clickhere.Disclaimer = styled.div`
+`
+
+Clickhere.Explanatorybit = styled.p`
+  padding: 228px;
+`
+
 
 export default Clickhere;

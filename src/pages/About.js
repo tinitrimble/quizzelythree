@@ -1,21 +1,28 @@
-import React, { Component } from 'react';
-import Header from '../layouts/Header.js';
-import Footer from '../layouts/Footer.js';
-import '../layouts/Footerlinks.css';
+import React, { Component } from 'react'
+import Header from '../layouts/Header.js'
+import Footer from '../layouts/Footer.js'
+import styled from 'styled-components'
 
 
 class About extends Component {
   render() {
     return(
-    <div className="About">
+    <About.Div>
       <Header />
-      <div id="Explanatorybit">
-        <p>Take quizzes for no reason here.</p>
-      </div>
+      <About.Explanation>
+        Take quizzes for no reason here.
+      </About.Explanation>
       <Footer />
-    </div>
+    </About.Div>
     )
   }
 }
+
+About.Div = styled.div`
+`
+
+About.Explanation = styled.p`
+  padding: 228px;
+`
 
 export default About;

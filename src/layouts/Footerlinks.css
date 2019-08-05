@@ -1,9 +1,0 @@
-#Explanatorybit {
-  padding: 228px;
-}
-
-@media(max-width: 600px) {
-  #Explanatorybit {
-    padding: 175px 40px;
-  }
-}

@@ -43,7 +43,7 @@ Header.Input = styled.input`
   transition: width 0.4s ease-in-out;
   font-size: 16px;
 
-  &:hover & {
+  &:hover {
     width: 26%;
     outline: 1px solid rgba(249, 113, 49, 0.5);
     font-size: 16px;
