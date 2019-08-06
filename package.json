@@ -13,10 +13,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
     "classnames": "^2.2.6",
     "gatsby": "^2.3.32",
-    "gatsby-cli": "^2.7.8",
+    "gatsby-cli": "^2.7.28",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-styled-components": "^3.1.2",
     "gatsby-source-filesystem": "^2.1.2",
     "gatsby-transformer-json": "^2.2.0",
     "react": "^16.8.6",
