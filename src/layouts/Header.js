@@ -7,8 +7,6 @@ const Header = () => (
   <Header.Div ui-view="header" autoscroll="true">
     <Header.Logo src={logo} className="logo" alt="logo" />
     <Header.PageName to="/" className="page-name">Quizzelydoo</Header.PageName>
-    <Header.Input type="text" name="search" placeholder="Search" className="searchbar" >
-    </Header.Input>
   </Header.Div>
 )
 
@@ -33,21 +31,6 @@ Header.PageName = styled(Link)`
   padding: 16px 2px 2px 2px;
   font-size: 36px;
   display: inline;
-`;
-
-Header.Input = styled.input`
-  display: inline;
-  float: right;
-  margin-top: 32px;
-  width: 170px;
-  transition: width 0.4s ease-in-out;
-  font-size: 16px;
-
-  &:hover {
-    width: 26%;
-    outline: 1px solid rgba(249, 113, 49, 0.5);
-    font-size: 16px;
-  }
 `;
 
 export default Header;

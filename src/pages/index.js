@@ -13,9 +13,9 @@ const Mainpage = ({ data }) => {
         <Mainpage.Header>Welcome to Quizzelydoo! Enjoy your quiz break.</Mainpage.Header>
         <Mainpage.TheQuizzes>
           {quizzes.map(quiz => (
-            <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} className="quiz-item">
+            <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} >
               {quiz.quizheadline.quiztitle}
-              <Mainpage.Intropic src={quiz.quizheadline.intropic} alt="intropic" class="intropic" /> 
+              <Mainpage.Intropic src={quiz.quizheadline.intropic} alt="intropic"/> 
             </Mainpage.Link>
           ))}
         </Mainpage.TheQuizzes>
@@ -25,31 +25,33 @@ const Mainpage = ({ data }) => {
 }
 
 Mainpage.Quizlist = styled.div`
-  margin: 0 0 0 0;
-  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
   font-family: sans-serif;
+  flex-basis: auto;
 `
 
 Mainpage.Header = styled.h3`
-  margin: 0 0 10px 0;
   font: serif;
   color: #002921;
-  `
+`
 
 Mainpage.Blurb = styled.div`
-  margin: 36px 0 0 120px;
 `;
 
 
 Mainpage.TheQuizzes = styled.div`
+  display: flex;
+  flex-flow: row wrap;
 `;
 
 
 Mainpage.Link = styled(Link)`
-  display: inline-block;
-  width: 430px;
-  margin: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
   padding: 15px;
+  max-width: 250px;
   text-decoration: none;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   font-weight: 300;
@@ -61,9 +63,10 @@ Mainpage.Link = styled(Link)`
 `
 
 Mainpage.Intropic = styled.img`
-  padding: 15px 0;
-  display: block;
-  height: 125px;
+  padding-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 200px;
 `
 
 export const query = graphql`
