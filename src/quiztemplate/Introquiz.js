@@ -24,26 +24,29 @@ class Introquiz extends Component {
 }
 
 Introquiz.QuizTitle = styled.div`
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   text-align: center;
-  margin: 25px 0px 25px 0px;
-  padding-bottom: 20px;
-  position: relative;
+  padding: 20px;
 `
 
 Introquiz.Header = styled.h1`
   font-size: 34px;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  display: block;
   color: #002921;
   font:sans-serif;
 `
 
 Introquiz.Quizpic = styled.img`
   border-radius: 10px;
-  max-height: 260px;
-  margin-left: 0 auto;
+  display: flex;
   text-align: center;
-  margin-right: 0 auto;
+  align-self: center;
+  align-items: flex-start;
+  flex: 0 0 250px;
 `
 
 Introquiz.Summary = styled.div`
@@ -58,6 +61,7 @@ Introquiz.Begin = styled.button`
   font-size: 16px;
   background-color: #fff;
   margin-bottom: 25px;
+  align-self: center;
   color: #59605f;
   &:hover {
     background-color: #6EC8B2;
