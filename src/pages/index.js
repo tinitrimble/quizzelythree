@@ -10,7 +10,7 @@ const Mainpage = ({ data }) => {
     <Mainpage.Quizlist>
       <Header />
       <Mainpage.Blurb>
-        <Mainpage.Header>Welcome to Quizzelydoo! Enjoy your quiz break.</Mainpage.Header>
+        <Mainpage.Header>Welcome to Quizzelydoo - A Place to Waste Time</Mainpage.Header>
         <Mainpage.TheQuizzes>
           {quizzes.map(quiz => (
             <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} >
@@ -25,24 +25,37 @@ const Mainpage = ({ data }) => {
 }
 
 Mainpage.Quizlist = styled.div`
+  position: absolute;
   display: flex;
   flex-flow: column wrap;
   font-family: sans-serif;
-  flex-basis: auto;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
 `
 
 Mainpage.Header = styled.h3`
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
   font: serif;
+  font-weight: 380;
   color: #002921;
 `
 
 Mainpage.Blurb = styled.div`
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  font-family: sans-serif;
 `;
 
 
 Mainpage.TheQuizzes = styled.div`
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 `;
 
 
@@ -66,6 +79,7 @@ Mainpage.Intropic = styled.img`
   padding-top: 15px;
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
   max-width: 200px;
 `
 

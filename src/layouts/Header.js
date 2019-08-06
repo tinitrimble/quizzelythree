@@ -16,12 +16,12 @@ Header.Div = styled.div`
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: left;
+  text-align: center;
+  justify-content: center;
 `;
 
 Header.Logo = styled.img`
   height: 75px;
-  margin: 5px 30px 1px 20px;
 `;
 
 Header.PageName = styled(Link)`
