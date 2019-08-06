@@ -3,7 +3,7 @@ import React, { Component } from "react"
 import Header from "../layouts/Header.js"
 import Introquiz from "../quiztemplate/Introquiz.js"
 import Question from "../quiztemplate/Question.js"
-import "./Quiz.css"
+import styled from 'styled-components'
 import Results from "../quiztemplate/Results.js"
 
 export const query = graphql`
@@ -77,24 +77,23 @@ class Quiz extends Component {
   }
   render() {
     const isQuizIntro = this.state.showIntro
-    console.log(this.quiz)
     return (
-      <div className="App">
+      <Quiz.Container>
         <Header />
         {isQuizIntro ? (
-          <div className="Introduction">
+          <Quiz.Intro>
             <Introquiz
               quiztitle={this.quiz.quizheadline.quiztitle}
               intropic={this.quiz.quizheadline.intropic}
               quizsummary={this.quiz.quizheadline.quizsummary}
               onClick={this.handleQuizStart}
             />
-          </div>
+          </Quiz.Intro>
         ) : (
-          <div className="Quiz-Display">
-            <div className="qtitle">
-              <h1 className="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
-            </div>
+          <Quiz.Display>
+            <Quiz.Title>
+              {this.quiz.quizheadline.quiztitle}
+            </Quiz.Title>
             {this.quiz.questions.map((question, index) => (
               <Question
                 key={index}
@@ -106,12 +105,34 @@ class Quiz extends Component {
                 userAnswer={this.state.userAnswers[index]}
               />
             ))}
-          </div>
+          </Quiz.Display>
         )}
         {this.getResults()}
-      </div>
+      </Quiz.Container>
     )
   }
 }
+
+Quiz.Container = styled.div`
+  background-color: #white;
+`
+
+Quiz.Intro = styled.div`
+  display: inline;
+`
+
+Quiz.Display = styled.div`
+  margin-bottom: 25px;
+`
+
+Quiz.Title = styled.div`
+  font-size: 26px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin: 26px 0 16px 126px;
+  color: #002921;
+`
+
 
 export default Quiz

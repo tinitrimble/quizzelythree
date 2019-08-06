@@ -63,7 +63,7 @@ class Question extends Component {
 }
 
 Question.GetCorrect = styled.div`
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 3px 6px 0 hsla(0, 0%, 0%, 0.1);
   padding: 20px 10px;
   border-radius: 5px;
   text-align: center;
