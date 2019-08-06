@@ -1,6 +1,5 @@
 import React from "react"
 import Header from "../layouts/Header.js"
-import Footer from "../layouts/Footer.js"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import styled from 'styled-components'
@@ -14,14 +13,13 @@ const Mainpage = ({ data }) => {
         <Mainpage.Header>Welcome to Quizzelydoo! Enjoy your quiz break.</Mainpage.Header>
         <Mainpage.TheQuizzes>
           {quizzes.map(quiz => (
-            <Mainpage.Link to={`/quiz/${quiz.slug}`} className="quiz-item">
+            <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} className="quiz-item">
               {quiz.quizheadline.quiztitle}
               <Mainpage.Intropic src={quiz.quizheadline.intropic} alt="intropic" class="intropic" /> 
             </Mainpage.Link>
           ))}
         </Mainpage.TheQuizzes>
       </Mainpage.Blurb>
-      <Footer />
     </Mainpage.Quizlist>
   )
 }

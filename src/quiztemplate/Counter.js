@@ -9,7 +9,8 @@ class Counter extends Component {
   render() {
     return (
       <Counter.Score>
-        Your score is: {this.props.totalscore}
+        <Counter.Text> Your score is: {this.props.totalscore}
+        </Counter.Text>
       </Counter.Score>
     )
   }
@@ -23,6 +24,10 @@ Counter.Score = styled.div`
   text-align: center;
   bottom: 0;
   width: 100%;
+`
+
+Counter.Text = styled.p`
+  font-size: 10px;
 `
 
 

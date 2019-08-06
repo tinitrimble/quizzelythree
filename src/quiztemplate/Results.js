@@ -20,7 +20,7 @@ class Results extends Component {
   }
   render() {
     return (
-      <Results.ResultBox className="result-box" >
+      <Results.ResultBox>
       <Results.Score>You scored: {this.props.score}</Results.Score>
       <Results.Headline>{this.props.headline}</Results.Headline>
       <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
