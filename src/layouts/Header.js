@@ -12,25 +12,25 @@ const Header = () => (
 
 Header.Div = styled.div`
   background-color: #fff;
-  height: 90px;
   border-bottom: 1px solid #9116fc;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: left;
 `;
 
 Header.Logo = styled.img`
   height: 75px;
   margin: 5px 30px 1px 20px;
-  vertical-align: middle;
 `;
 
 Header.PageName = styled(Link)`
+  display: flex;
   text-decoration: none;
   font: 'Amatic';
   font-weight: 200;
   color: #002921;
-  vertical-align: middle;
-  padding: 16px 2px 2px 2px;
   font-size: 36px;
-  display: inline;
 `;
 
 export default Header;
