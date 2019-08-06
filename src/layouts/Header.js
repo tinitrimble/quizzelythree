@@ -5,14 +5,15 @@ import styled from 'styled-components'
 
 const Header = () => (
   <Header.Div ui-view="header" autoscroll="true">
-    <Header.Logo src={logo} className="logo" alt="logo" />
-    <Header.PageName to="/" className="page-name">Quizzelydoo</Header.PageName>
+    <Header.Title to="/" className="page-name">
+      <Header.Logo src={logo} className="logo" alt="logo" />
+      <Header.PageName>uizzelydoo</Header.PageName>
+    </Header.Title>
   </Header.Div>
 )
 
 Header.Div = styled.div`
   background-color: #fff;
-  border-bottom: 1px solid #9116fc;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -20,17 +21,25 @@ Header.Div = styled.div`
   justify-content: center;
 `;
 
+Header.Title = styled(Link)`
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+`
+
 Header.Logo = styled.img`
   height: 75px;
 `;
 
-Header.PageName = styled(Link)`
+Header.PageName = styled.div`
+  margin-top: 36px;
+  margin-left: -15px;
   display: flex;
-  text-decoration: none;
-  font: 'Amatic';
-  font-weight: 200;
+  text-decoration: underline;
+  text-decoration-color: #6EC8B2;
+  font-family: sans-serif;
   color: #002921;
-  font-size: 36px;
+  font-size: 35px;
 `;
 
 export default Header;

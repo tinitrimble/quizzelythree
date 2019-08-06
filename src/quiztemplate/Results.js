@@ -23,41 +23,55 @@ class Results extends Component {
       <Results.ResultBox>
       <Results.Score>You scored: {this.props.score}</Results.Score>
       <Results.Headline>{this.props.headline}</Results.Headline>
-      <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
+      <Results.ResultPicContainer>
+        <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
       <Results.ResultBlurb className="resultblurb">{this.props.summary}</Results.ResultBlurb>
+      </Results.ResultPicContainer>
       </Results.ResultBox>
     )
   }
 }
 
 Results.ResultBox = styled.div`
-  border: 0.5px #E85A4F solid;
-  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
   border-radius: 5px;
   text-align: center;
-  max-width: 60%;
-  min-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 36px;
 `
 
 Results.Score = styled.h1`
-  font-size: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  margin: 0 auto;
 `
 
 Results.Headline = styled.h2`
-  font-size: 26px;
+  font-size: 36px;
+  margin: 0 auto;
+  color: red;
+`
+
+Results.ResultPicContainer = styled.div`
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-self: center;
 `
       
 Results.ResultPic = styled.img`
-  max-height: 200px;
+  max-width: 500px;
   border-radius: 5px;
 `
 
 Results.ResultBlurb = styled.p`
-  padding: 20px 155px;
+  max-width: 500px;
+  align-self: center;
+  text-align: left;
 `
 
 export default Results;

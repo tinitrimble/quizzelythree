@@ -13,7 +13,9 @@ class Introquiz extends Component {
     return (
       <Introquiz.QuizTitle>
         <Introquiz.Header>{this.props.quiztitle}</Introquiz.Header>
-        <Introquiz.Quizpic src={this.props.intropic} alt="quizpic" />
+        <Introquiz.QuizpicContainer>
+          <Introquiz.Quizpic src={this.props.intropic} alt="quizpic" />
+        </Introquiz.QuizpicContainer>
         <Introquiz.Summary>
           {this.props.quizsummary}
         </Introquiz.Summary>
@@ -28,7 +30,7 @@ Introquiz.QuizTitle = styled.div`
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 `
 
 Introquiz.Header = styled.h1`
@@ -37,16 +39,18 @@ Introquiz.Header = styled.h1`
   justify-content: center;
   text-align: center;
   color: #002921;
-  font:sans-serif;
 `
 
-Introquiz.Quizpic = styled.img`
-  border-radius: 10px;
+Introquiz.QuizpicContainer = styled.div`
   display: flex;
   text-align: center;
   align-self: center;
   align-items: flex-start;
-  flex: 0 0 250px;
+`
+
+Introquiz.Quizpic = styled.img`
+  border-radius: 10px;
+  max-width: 400px;
 `
 
 Introquiz.Summary = styled.div`

@@ -9,62 +9,55 @@ const Mainpage = ({ data }) => {
   return (
     <Mainpage.Quizlist>
       <Header />
-      <Mainpage.Blurb>
-        <Mainpage.Header>Welcome to Quizzelydoo - A Place to Waste Time</Mainpage.Header>
-        <Mainpage.TheQuizzes>
-          {quizzes.map(quiz => (
-            <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} >
-              {quiz.quizheadline.quiztitle}
+      <Mainpage.Header>Welcome to Quizzelydoo - A Place to Waste Time</Mainpage.Header>
+      <Mainpage.TheQuizzes>
+        {quizzes.map(quiz => (
+          <Mainpage.Link to={`/quiz/${quiz.slug}`} key={quiz.slug} >
+            {quiz.quizheadline.quiztitle}
+            <Mainpage.IntropicContainer>
               <Mainpage.Intropic src={quiz.quizheadline.intropic} alt="intropic"/> 
-            </Mainpage.Link>
-          ))}
-        </Mainpage.TheQuizzes>
-      </Mainpage.Blurb>
+            </Mainpage.IntropicContainer>
+          </Mainpage.Link>
+        ))}
+      </Mainpage.TheQuizzes>
     </Mainpage.Quizlist>
   )
 }
 
 Mainpage.Quizlist = styled.div`
-  position: absolute;
   display: flex;
   flex-flow: column wrap;
   font-family: sans-serif;
   text-align: center;
   justify-content: center;
-  width: 100%;
 `
 
-Mainpage.Header = styled.h3`
-  display: flex;
-  flex-flow: column wrap;
+Mainpage.Header = styled.h1`
+  font-family: serif;
+  color: #002921;
+  font-size: 34px;
+  margin: 42px 40px 0 40px;
   text-align: center;
   justify-content: center;
-  font: serif;
-  font-weight: 380;
+  display: flex;
+  flex-flow: column wrap;
   color: #002921;
 `
-
-Mainpage.Blurb = styled.div`
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  font-family: sans-serif;
-`;
-
 
 Mainpage.TheQuizzes = styled.div`
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding: 20px;
 `;
 
 
 Mainpage.Link = styled(Link)`
-  display: flex;
-  flex-flow: column wrap;
   margin: 10px;
-  padding: 15px;
   max-width: 250px;
+  height: 240px;
+  justify-content: center;
+  padding: 15px;
   text-decoration: none;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   font-weight: 300;
@@ -75,12 +68,16 @@ Mainpage.Link = styled(Link)`
   }
 `
 
-Mainpage.Intropic = styled.img`
-  padding-top: 15px;
+Mainpage.IntropicContainer = styled.div`
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  height: 200px;
+`
+
+Mainpage.Intropic = styled.img`
   max-width: 200px;
+  border-radius: 4px;
 `
 
 export const query = graphql`

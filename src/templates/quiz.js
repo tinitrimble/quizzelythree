@@ -118,19 +118,22 @@ Quiz.Container = styled.div`
 `
 
 Quiz.Intro = styled.div`
-  display: inline;
 `
 
 Quiz.Display = styled.div`
-  margin-bottom: 25px;
+  display: flex;
+  text-align: center;
+  flex-flow: column wrap;
+  justify-content: center;
 `
 
-Quiz.Title = styled.div`
-  font-size: 26px;
+Quiz.Title = styled.h1`
+  font-size: 34px;
+  margin-top: 42px;
   text-align: center;
-  display: inline-block;
-  position: relative;
-  margin: 26px 0 16px 126px;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
   color: #002921;
 `
 

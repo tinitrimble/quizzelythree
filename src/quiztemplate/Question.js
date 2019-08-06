@@ -46,7 +46,9 @@ class Question extends Component {
     return (
       <Question.GetCorrect>
         <Question.Question>{this.props.text}</Question.Question>
-        <Question.Pic src={this.props.picture} alt="" />
+        <Question.PicContainer>
+          <Question.Pic src={this.props.picture} alt="" />
+        </Question.PicContainer>
         <Question.PossibleChoices>
           {this.props.answers.map((answer, index) =>
             <Question.Button
@@ -64,7 +66,6 @@ class Question extends Component {
 
 Question.GetCorrect = styled.div`
   box-shadow: 0 3px 6px 0 hsla(0, 0%, 0%, 0.1);
-  padding: 9px 10px;
   border-radius: 5px;
   display: flex;
   flex-flow: column wrap;
@@ -79,14 +80,17 @@ Question.Question = styled.h3`
   align-items: flex-start;
 `
 
-Question.Pic = styled.img`
-  border-radius: 10px;
+Question.PicContainer = styled.div`
   display: flex;
   flex-flow: column wrap;
   align-self: center;
   align-items: flex-start;
-  flex: 0 0 250px;
-  padding: 8px;
+`
+
+Question.Pic = styled.img`
+  border-radius: 10px;
+  max-height: 200px;
+  padding: 6px;
 `
 
 Question.PossibleChoices = styled.div`
@@ -96,13 +100,15 @@ Question.PossibleChoices = styled.div`
   flex-flow: column wrap;
   align-self: center;
   align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: 20px;
 `
 
 Question.Button = styled.button`
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   width: 200px;
-  padding: 10px;
+  padding: 8px;
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
