@@ -51,7 +51,6 @@ class Question extends Component {
           {this.props.answers.map((answer, index) =>
             <Question.Button
               key={index}
-              className={this.getButtonClassName(answer)}
               onClick={() => this.props.onClick(answer, this.props.questionNumber)}
               disabled={!!this.props.userAnswer}>
               {answer.option}
@@ -84,16 +83,12 @@ Question.Pic = styled.img`
 `
 
 Question.PossibleChoices = styled.div`
-  display: block;
-  margin: 5px;
-  padding: 10px;
-  width: 60%;
-  text-align: left;
   border-radius: 2px; 
   box-shadow: none;
 `
 
 Question.Button = styled.button`
+  text-align: center;
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -105,7 +100,8 @@ Question.Button = styled.button`
       return 'green';
     }
     else return 'red';
-  }}
+    }
+  }
 `
 
 export default Question;

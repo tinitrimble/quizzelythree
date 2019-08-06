@@ -2,7 +2,6 @@ import { graphql } from "gatsby"
 import React, { Component } from "react"
 import Header from "../layouts/Header.js"
 import Introquiz from "../quiztemplate/Introquiz.js"
-import Counter from "../quiztemplate/Counter.js"
 import Question from "../quiztemplate/Question.js"
 import "./Quiz.css"
 import Results from "../quiztemplate/Results.js"
@@ -96,10 +95,6 @@ class Quiz extends Component {
             <div className="qtitle">
               <h1 className="Quiz-name">{this.quiz.quizheadline.quiztitle}</h1>
             </div>
-            <Counter
-              totalscore={this.getCorrectAnswerCount()}
-              className="counterpos"
-            />
             {this.quiz.questions.map((question, index) => (
               <Question
                 key={index}
