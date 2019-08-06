@@ -64,31 +64,45 @@ class Question extends Component {
 
 Question.GetCorrect = styled.div`
   box-shadow: 0 3px 6px 0 hsla(0, 0%, 0%, 0.1);
-  padding: 20px 10px;
+  padding: 9px 10px;
   border-radius: 5px;
+  display: flex;
+  flex-flow: column wrap;
   text-align: center;
-  display: block;
   color: #3e4a48;
 `
 Question.Question = styled.h3`
   font-size: 20px;
   color: #3e4a48;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
 `
 
 Question.Pic = styled.img`
-  max-width: 50%;
-  max-height: 200px;
-  margin: 10px 0 0 0;
-  border-radius: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  align-items: flex-start;
+  flex: 0 0 250px;
+  padding: 8px;
 `
 
 Question.PossibleChoices = styled.div`
   border-radius: 2px; 
   box-shadow: none;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  align-items: flex-start;
 `
 
 Question.Button = styled.button`
   text-align: center;
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -96,11 +110,13 @@ Question.Button = styled.button`
     if (!userAnswer) {
       return 'white';
     }
-    else if (userAnswer.correct) {
+    else if (userAnswer && userAnswer.correct) {
       return 'green';
     }
-    else return 'red';
+    else if (userAnswer && !userAnswer.correct) {
+      return 'red';
     }
+  }
   }
 `
 
