@@ -118,6 +118,7 @@ Quiz.Container = styled.div`
 `
 
 Quiz.Intro = styled.div`
+  margin-top: 65px;
 `
 
 Quiz.Display = styled.div`
@@ -125,6 +126,7 @@ Quiz.Display = styled.div`
   text-align: center;
   flex-flow: column wrap;
   justify-content: center;
+  margin-top: 65px;
 `
 
 Quiz.Title = styled.h1`

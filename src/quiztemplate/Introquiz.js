@@ -50,7 +50,7 @@ Introquiz.QuizpicContainer = styled.div`
 
 Introquiz.Quizpic = styled.img`
   border-radius: 10px;
-  max-width: 400px;
+  max-width: 300px;
 `
 
 Introquiz.Summary = styled.div`
@@ -61,15 +61,15 @@ Introquiz.Summary = styled.div`
 Introquiz.Begin = styled.button`
   padding: 10px 15px;
   border-radius: 10px;
-  border: 1px solid #6EC8B2;
+  border: 1px solid #bacdc5;
   font-size: 16px;
   background-color: #fff;
   margin-bottom: 25px;
   align-self: center;
   color: #59605f;
   &:hover {
-    background-color: #6EC8B2;
-    color: #fff;
+    background-color: #bacdc5;
+    color: #fafffc;
   }
 `
 

@@ -31,12 +31,11 @@ Mainpage.Quizlist = styled.div`
   text-align: center;
   justify-content: center;
 `
-
 Mainpage.Header = styled.h1`
   font-family: serif;
   color: #002921;
   font-size: 34px;
-  margin: 42px 40px 0 40px;
+  margin: 100px 40px 0 40px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -59,12 +58,12 @@ Mainpage.Link = styled(Link)`
   justify-content: center;
   padding: 15px;
   text-decoration: none;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 4px 6px 0 #dce6e5;
   font-weight: 300;
   color: #3e4a48;
   text-align:left;
   &:hover {
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 04);
+    box-shadow: 0 4px 6px 0 #bacfcc;
   }
 `
 

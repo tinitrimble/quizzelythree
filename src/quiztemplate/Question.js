@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import classNames from 'classnames'
+// import classNames from 'classnames'
 
 class Question extends Component {
    static propTypes = {
@@ -18,30 +18,30 @@ class Question extends Component {
       correct: PropTypes.bool
     })
   }
-  getQuestionClassName() {
-    return classNames({
-      question: true,
-      rightAnswer: this.props.userAnswer && (this.props.userAnswer.correct === true),
-      wrongAnswer: this.props.userAnswer && (this.props.userAnswer.correct === false),
-      answered: this.props.userAnswer
-    });
-  }
-  getButtonClassName(answer) {
-    const classes = { choice: true };
-    if (this.props.userAnswer && this.props.userAnswer.option === answer.option) {
-      if (this.props.userAnswer.correct) {
-        classes.rightAnswer = true;
-      } else {
-        classes.wrongAnswer = true;
-      }
-    }
-    if (!!this.props.userAnswer) {
-      classes.answered = true;
-     } else {
-       classes.answered = false;
-     }
-    return classNames(classes);
-  }
+  // getQuestionClassName() {
+    // return classNames({
+      // question: true,
+      // rightAnswer: this.props.userAnswer && (this.props.userAnswer.correct === true),
+      // wrongAnswer: this.props.userAnswer && (this.props.userAnswer.correct === false),
+      // answered: this.props.userAnswer
+    // });
+  // }
+  // getButtonClassName(answer) {
+    // const classes = { choice: true };
+    // if (this.props.userAnswer && this.props.userAnswer.option === answer.option) {
+      // if (this.props.userAnswer.correct) {
+        // classes.rightAnswer = true;
+      // } else {
+        // classes.wrongAnswer = true;
+      // }
+    // }
+    // if (!!this.props.userAnswer) {
+      // classes.answered = true;
+     // } else {
+       // classes.answered = false;
+     // }
+    // return classNames(classes);
+  // }
   render() {
     return (
       <Question.GetCorrect>
@@ -65,8 +65,10 @@ class Question extends Component {
 }
 
 Question.GetCorrect = styled.div`
-  box-shadow: 0 3px 6px 0 hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 3px 6px 0 #bacdc5;
   border-radius: 5px;
+  width: 80%;
+  align-self: center;
   display: flex;
   flex-flow: column wrap;
   text-align: center;
@@ -109,21 +111,29 @@ Question.Button = styled.button`
   margin: 5px;
   width: 200px;
   padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #bacdc5;
+  background-color: #fff;
   &:hover {
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px 1px #dce6e5;
   }
-  background-color: ${({ userAnswer }) => {
-    if (!userAnswer) {
-      return 'white';
-    }
-    else if (userAnswer && userAnswer.correct) {
-      return 'green';
-    }
-    else if (userAnswer && !userAnswer.correct) {
-      return 'red';
-    }
-  }
-  }
+  &:disabled {
+    background-color: #bacdc5;
+    color: #fafffc;
+    border: 1px solid #bacdc5;
+   }
 `
+    // background-color: ${({ userAnswer }) => {
+    // if (!userAnswer) {
+      // return 'white';
+    // }
+    // else if (userAnswer.correct) {
+      // return 'green';
+    // }
+    // else if (!userAnswer.correct) {
+      // return 'red';
+    // }
+  // }} 
+// `
 
 export default Question;

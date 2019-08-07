@@ -13,10 +13,14 @@ const Header = () => (
 )
 
 Header.Div = styled.div`
-  background-color: #fff;
+  background-color: #dce6e5;
+  width: 100%;
+  position: fixed;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   text-align: center;
   justify-content: center;
 `;

@@ -38,6 +38,7 @@ Results.ResultBox = styled.div`
   border-radius: 5px;
   text-align: center;
   margin-top: 36px;
+  align-self: center;
 `
 
 Results.Score = styled.h1`
@@ -52,7 +53,7 @@ Results.Score = styled.h1`
 Results.Headline = styled.h2`
   font-size: 36px;
   margin: 0 auto;
-  color: red;
+  color: #f27100;
 `
 
 Results.ResultPicContainer = styled.div`
@@ -64,14 +65,15 @@ Results.ResultPicContainer = styled.div`
 `
       
 Results.ResultPic = styled.img`
-  max-width: 500px;
+  max-width: 400px;
+  align-self: center;
   border-radius: 5px;
 `
 
 Results.ResultBlurb = styled.p`
-  max-width: 500px;
+  display: flex;
   align-self: center;
-  text-align: left;
+  max-width: 300px;
 `
 
 export default Results;
