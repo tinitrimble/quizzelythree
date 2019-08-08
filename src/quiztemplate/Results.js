@@ -46,14 +46,15 @@ Results.Score = styled.h1`
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  font-size: 28px;
+  font-size: 34px;
+  color: #6EC8B2;
   margin: 0 auto;
 `
 
 Results.Headline = styled.h2`
-  font-size: 36px;
+  font-size: 24px;
   margin: 0 auto;
-  color: #f27100;
+  color: #f090ab;
 `
 
 Results.ResultPicContainer = styled.div`
@@ -73,7 +74,12 @@ Results.ResultPic = styled.img`
 Results.ResultBlurb = styled.p`
   display: flex;
   align-self: center;
+  text-align: center;
   max-width: 300px;
+  font-family: sans-serif;
+  font-size: 16;
+  font-weight: 300px;
+  color: #3e4a48;
 `
 
 export default Results;

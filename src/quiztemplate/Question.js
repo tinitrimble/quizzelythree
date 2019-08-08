@@ -31,9 +31,7 @@ class Question extends Component {
     return (
       <Question.GetCorrect>
         <Question.Question>{text}</Question.Question>
-        <Question.PicContainer>
-          <Question.Pic src={picture} alt="" />
-        </Question.PicContainer>
+        {picture && <Question.Pic src={picture} alt="" />}
         <Question.PossibleChoices>
           {answers.map((answer, index) => (
             <Question.Button
@@ -53,7 +51,6 @@ class Question extends Component {
 }
 
 Question.GetCorrect = styled.div`
-  box-shadow: 0 3px 6px 0 #bacdc5;
   border-radius: 5px;
   width: 90%;
   align-self: center;
@@ -61,26 +58,24 @@ Question.GetCorrect = styled.div`
   flex-flow: column wrap;
   text-align: center;
   color: #3e4a48;
+  margin: 42px 12px;
 `
 Question.Question = styled.h3`
-  font-size: 20px;
+  font-size: 24px;
   color: #3e4a48;
   display: flex;
+  margin: 0;
   align-self: center;
   align-items: flex-start;
-`
-
-Question.PicContainer = styled.div`
-  display: flex;
-  flex-flow: column wrap;
-  align-self: center;
-  align-items: flex-start;
+  font-family: sans-serif;
+  font-weight: 500;
 `
 
 Question.Pic = styled.img`
+  align-self: center;
   border-radius: 10px;
   max-height: 200px;
-  padding: 6px;
+  margin-top: 10px;
 `
 
 Question.PossibleChoices = styled.div`
@@ -90,15 +85,14 @@ Question.PossibleChoices = styled.div`
   flex-flow: column wrap;
   align-self: center;
   align-items: flex-start;
-  margin-top: 10px;
-  margin-bottom: 20px;
 `
 
 Question.Button = styled.button`
   text-align: center;
-  margin: 5px;
+  margin-top: 10px;
   width: 200px;
-  padding: 8px;
+  padding: 4px;
+  font-size: 16px;
   border-radius: 5px;
   border: 1px solid #bacdc5;
   background-color: #fff;

@@ -4,6 +4,7 @@ import Header from "../layouts/Header.js"
 import Introquiz from "../quiztemplate/Introquiz.js"
 import Question from "../quiztemplate/Question.js"
 import styled from 'styled-components'
+import { PageHeader } from '../pages'
 import Results from "../quiztemplate/Results.js"
 
 export const query = graphql`
@@ -81,19 +82,17 @@ class Quiz extends Component {
       <Quiz.Container>
         <Header />
         {isQuizIntro ? (
-          <Quiz.Intro>
             <Introquiz
               quiztitle={this.quiz.quizheadline.quiztitle}
               intropic={this.quiz.quizheadline.intropic}
               quizsummary={this.quiz.quizheadline.quizsummary}
               onClick={this.handleQuizStart}
             />
-          </Quiz.Intro>
         ) : (
           <Quiz.Display>
-            <Quiz.Title>
+            <PageHeader>
               {this.quiz.quizheadline.quiztitle}
-            </Quiz.Title>
+            </PageHeader>
             {this.quiz.questions.map((question, index) => (
               <Question
                 key={index}
@@ -117,16 +116,11 @@ Quiz.Container = styled.div`
   background-color: #white;
 `
 
-Quiz.Intro = styled.div`
-  margin-top: 65px;
-`
-
 Quiz.Display = styled.div`
   display: flex;
   text-align: center;
   flex-flow: column wrap;
   justify-content: center;
-  margin-top: 65px;
 `
 
 Quiz.Title = styled.h1`

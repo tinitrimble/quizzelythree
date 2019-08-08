@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { PageHeader } from '../pages'
 
 class Introquiz extends Component {
   static propTypes = {
@@ -12,7 +13,7 @@ class Introquiz extends Component {
   render() {
     return (
       <Introquiz.QuizTitle>
-        <Introquiz.Header>{this.props.quiztitle}</Introquiz.Header>
+        <PageHeader>{this.props.quiztitle}</PageHeader>
         <Introquiz.QuizpicContainer>
           <Introquiz.Quizpic src={this.props.intropic} alt="quizpic" />
         </Introquiz.QuizpicContainer>
@@ -30,15 +31,6 @@ Introquiz.QuizTitle = styled.div`
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  padding: 20px 0;
-`
-
-Introquiz.Header = styled.h1`
-  font-size: 34px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: #002921;
 `
 
 Introquiz.QuizpicContainer = styled.div`
@@ -49,13 +41,18 @@ Introquiz.QuizpicContainer = styled.div`
 `
 
 Introquiz.Quizpic = styled.img`
+  margin-top: 60px;
   border-radius: 10px;
-  max-width: 250px;
+  max-width: 350px;
 `
 
 Introquiz.Summary = styled.div`
   margin: 25px 0px 25px 0px;
+  max-width: 300px;
+  align-self: center;
   color: #3e4a48;
+  font-family: sans-serif;
+  font-size: 16px;
 `
 
 Introquiz.Begin = styled.button`
