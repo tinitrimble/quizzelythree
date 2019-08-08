@@ -55,7 +55,7 @@ class Question extends Component {
 Question.GetCorrect = styled.div`
   box-shadow: 0 3px 6px 0 #bacdc5;
   border-radius: 5px;
-  width: 80%;
+  width: 90%;
   align-self: center;
   display: flex;
   flex-flow: column wrap;

@@ -50,7 +50,7 @@ Introquiz.QuizpicContainer = styled.div`
 
 Introquiz.Quizpic = styled.img`
   border-radius: 10px;
-  max-width: 300px;
+  max-width: 250px;
 `
 
 Introquiz.Summary = styled.div`
@@ -64,7 +64,6 @@ Introquiz.Begin = styled.button`
   border: 1px solid #bacdc5;
   font-size: 16px;
   background-color: #fff;
-  margin-bottom: 25px;
   align-self: center;
   color: #59605f;
   &:hover {
