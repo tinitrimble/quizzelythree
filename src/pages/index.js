@@ -47,14 +47,14 @@ Mainpage.TheQuizzes = styled.div`
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 4px;
 `;
 
 
 Mainpage.Link = styled(Link)`
-  margin: 10px;
+  margin: 8px;
   max-width: 250px;
-  height: 240px;
+  height: 230px;
   justify-content: center;
   padding: 15px;
   text-decoration: none;

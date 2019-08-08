@@ -13,7 +13,7 @@ const Header = () => (
 )
 
 Header.Div = styled.div`
-  background-color: #dce6e5;
+  background-color: rgb(220, 230, 229, 0.85);
   width: 100%;
   position: fixed;
   display: flex;
@@ -23,6 +23,7 @@ Header.Div = styled.div`
   width: 100%;
   text-align: center;
   justify-content: center;
+  opacity: 50%;
 `;
 
 Header.Title = styled(Link)`
