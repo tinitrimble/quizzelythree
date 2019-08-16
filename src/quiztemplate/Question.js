@@ -52,7 +52,7 @@ class Question extends Component {
 
 Question.GetCorrect = styled.div`
   border-radius: 5px;
-  width: 90%;
+  width: 95%;
   align-self: center;
   display: flex;
   flex-flow: column wrap;
@@ -61,7 +61,7 @@ Question.GetCorrect = styled.div`
   margin: 42px 12px;
 `
 Question.Question = styled.h3`
-  font-size: 24px;
+  font-size: 22px;
   color: #3e4a48;
   display: flex;
   margin: 0;
