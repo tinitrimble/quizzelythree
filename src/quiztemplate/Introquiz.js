@@ -30,8 +30,7 @@ Introquiz.QuizTitle = styled.div`
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  text-align: center;
-  max-width: 350px;
+  align-items: flex-center;
 `
 
 Introquiz.QuizpicContainer = styled.div`
@@ -49,8 +48,9 @@ Introquiz.Quizpic = styled.img`
 
 Introquiz.Summary = styled.div`
   margin: 25px 0px 25px 0px;
-  max-width: 300px;
+  max-width: 80%;
   align-self: center;
+  text-align: center;
   color: #3e4a48;
   font-family: sans-serif;
   font-size: 16px;
