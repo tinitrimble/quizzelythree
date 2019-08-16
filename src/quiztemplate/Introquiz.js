@@ -37,18 +37,18 @@ Introquiz.QuizpicContainer = styled.div`
   display: flex;
   text-align: center;
   align-self: center;
-  align-items: flex-start;
 `
 
 Introquiz.Quizpic = styled.img`
   margin-top: 40px;
   border-radius: 10px;
   max-width: 325px;
+  align-self: center;
 `
 
 Introquiz.Summary = styled.div`
   margin: 25px 0px 25px 0px;
-  max-width: 80%;
+  max-width: 90%;
   align-self: center;
   text-align: center;
   color: #3e4a48;
