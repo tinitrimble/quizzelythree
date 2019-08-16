@@ -21,8 +21,8 @@ class Results extends Component {
   render() {
     return (
       <Results.ResultBox>
-      <Results.Score>You scored: {this.props.score}</Results.Score>
       <Results.Headline>{this.props.headline}</Results.Headline>
+      <Results.Score>You scored: {this.props.score}</Results.Score>
       <Results.ResultPicContainer>
         <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
       <Results.ResultBlurb className="resultblurb">{this.props.summary}</Results.ResultBlurb>
@@ -46,13 +46,14 @@ Results.Score = styled.h1`
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
-  font-size: 34px;
+  font-size: 24px;
   color: #6EC8B2;
   margin: 0 auto;
+  margin-top: 10px;
 `
 
 Results.Headline = styled.h2`
-  font-size: 24px;
+  font-size: 32px;
   margin: 0 auto;
   color: #f090ab;
 `
@@ -66,7 +67,7 @@ Results.ResultPicContainer = styled.div`
 `
       
 Results.ResultPic = styled.img`
-  max-width: 400px;
+  max-width: 325px;
   align-self: center;
   border-radius: 5px;
 `
@@ -80,6 +81,7 @@ Results.ResultBlurb = styled.p`
   font-size: 16;
   font-weight: 300px;
   color: #3e4a48;
+  padding-bottom: 20px;
 `
 
 export default Results;
