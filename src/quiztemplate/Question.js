@@ -104,7 +104,7 @@ Question.Button = styled.button`
       return "white"
     } 
     if (userAnswer.correct && userAnswer.option === answer.option) {
-      return "#86ebbd"
+      return "#6dbda9"
     }
     if (!userAnswer.correct && userAnswer.option === answer.option) {
       return "#f090ab"
