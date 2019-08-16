@@ -42,7 +42,6 @@ Introquiz.QuizpicContainer = styled.div`
 Introquiz.Quizpic = styled.img`
   margin-top: 40px;
   border-radius: 10px;
-  max-width: 325px;
   max-height: 200px;
   align-self: center;
 `

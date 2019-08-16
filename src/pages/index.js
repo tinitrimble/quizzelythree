@@ -31,9 +31,9 @@ Mainpage.Quizlist = styled.div`
 export const PageHeader = styled.h1`
   font-family: serif;
   color: #002921;
-  font-size: 32px;
+  font-size: 28px;
   align-self: center;
-  max-width: 90%;
+  max-width: 95%;
   padding-top: 40px;
   margin: 0;
   margin-top: 65px;
