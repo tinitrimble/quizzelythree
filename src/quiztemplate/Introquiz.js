@@ -43,6 +43,7 @@ Introquiz.Quizpic = styled.img`
   margin-top: 40px;
   border-radius: 10px;
   max-width: 325px;
+  max-height: 200px;
   align-self: center;
 `
 
@@ -61,6 +62,7 @@ Introquiz.Begin = styled.button`
   border-radius: 10px;
   border: 1px solid #bacdc5;
   font-size: 16px;
+  margin: 0;
   background-color: #fff;
   align-self: center;
   color: #59605f;

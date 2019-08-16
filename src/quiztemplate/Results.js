@@ -68,6 +68,7 @@ Results.ResultPicContainer = styled.div`
       
 Results.ResultPic = styled.img`
   max-width: 325px;
+  max-height: 200px;
   align-self: center;
   border-radius: 5px;
 `
