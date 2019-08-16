@@ -13,7 +13,7 @@ class Results extends Component {
   componentDidMount() {
     window.setTimeout(() => {
       scrollToElement('.resultblurb', {
-        align: 'middle',
+        align: 'bottom',
         duration: 500
       })
     }, 500)

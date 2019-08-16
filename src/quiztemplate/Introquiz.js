@@ -31,6 +31,7 @@ Introquiz.QuizTitle = styled.div`
   flex-flow: column wrap;
   justify-content: center;
   text-align: center;
+  max-width: 350px;
 `
 
 Introquiz.QuizpicContainer = styled.div`
@@ -41,9 +42,9 @@ Introquiz.QuizpicContainer = styled.div`
 `
 
 Introquiz.Quizpic = styled.img`
-  margin-top: 60px;
+  margin-top: 40px;
   border-radius: 10px;
-  max-width: 350px;
+  max-width: 325px;
 `
 
 Introquiz.Summary = styled.div`
