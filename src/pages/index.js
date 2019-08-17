@@ -46,7 +46,7 @@ export const PageHeader = styled.h1`
 
 Mainpage.Subhead = styled.h4`
   font-weight: 200;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
 `
 
@@ -57,28 +57,6 @@ Mainpage.TheQuizzes = styled.div`
   margin-top: 20px;
 `;
 
-
-Mainpage.Link = styled(Link)`
-  margin: 8px;
-  max-width: 350px;
-  height: 230px;
-  justify-content: center;
-  padding: 15px;
-  text-decoration: none;
-  box-shadow: 0 4px 6px 0 #dce6e5;
-  font-weight: 300;
-  color: #3e4a48;
-  text-align:left;
-  &:hover {
-    box-shadow: 0 4px 6px 0 #bacfcc;
-  }
-`
-
-Mainpage.Intropic = styled.img`
-  align-self: left;
-  max-width: 200px;
-  border-radius: 4px;
-`
 
 export const query = graphql`
   query GetCorrectQuizQuery {

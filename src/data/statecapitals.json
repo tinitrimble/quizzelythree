@@ -1,0 +1,1111 @@
+{
+  "slug": "statecapitals",
+  "questions": [
+    {
+      "text": "What is the capital of Nevada",
+      "picture": "https://media.giphy.com/media/bEV9AfvjVXILBItO07/giphy.gif",
+      "answers": [
+        {
+          "option": "Reno",
+          "correct": false 
+        },
+        {
+          "option": "Las Vegas",
+          "correct": false 
+        },
+        {
+          "option": "Carson City",
+          "correct": true 
+        },
+        {
+          "option": "Provo",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Wyoming?",
+      "answers": [
+        {
+          "option": "Cheyenne",
+          "correct": true 
+        },
+        {
+          "option": "Casper",
+          "correct": false 
+        },
+        {
+          "option": "Jackson",
+          "correct": false 
+        },
+        {
+          "option": "Billings",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Alabama?",
+      "picture": "https://media.giphy.com/media/5u8tVhlBGzm0/giphy.gif",
+      "answers": [
+        {
+          "option": "Selma",
+          "correct": false 
+        },
+        {
+          "option": "Montgomery",
+          "correct": true 
+        },
+        {
+          "option": "Auburn",
+          "correct": false 
+        },
+        {
+          "option": "Mobile",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Ohio?",
+      "answers": [
+        {
+          "option": "Springfield",
+          "correct": false 
+        },
+        {
+          "option": "Columbus",
+          "correct": true 
+        },
+        {
+          "option": "Cleveland",
+          "correct": false
+        },
+        {
+          "option": "Cincinnati",
+          "correct": false
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Maine?",
+      "answers": [
+        {
+          "option": "Portland",
+          "correct": false 
+        },
+        {
+          "option": "Farmington",
+          "correct": false 
+        },
+        {
+          "option": "Concord",
+          "correct": false 
+        },
+        {
+          "option": "Augusta",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Arizona?",
+      "answers": [
+        {
+          "option": "Phoenix",
+          "correct": true 
+        },
+        {
+          "option": "Tucson",
+          "correct": false 
+        },
+        {
+          "option": "Scottsdale",
+          "correct": false 
+        },
+        {
+          "option": "Flagstaff",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Nebraska?",
+      "answers": [
+        {
+          "option": "Omaha",
+          "correct": false 
+        },
+        {
+          "option": "Hastings",
+          "correct": false 
+        },
+        {
+          "option": "Lincoln",
+          "correct": true 
+        },
+        {
+          "option": "Sioux Falls",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Florida?",
+      "picture": "https://media.giphy.com/media/d80SdOeWNm3GE/giphy.gif",
+      "answers": [
+        {
+          "option": "Jacksonville",
+          "correct": false 
+        },
+        {
+          "option": "Miami",
+          "correct": false 
+        },
+        {
+          "option": "Orlando",
+          "correct": false 
+        },
+        {
+          "option": "Tallahassee",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Wisconsin?",
+      "answers": [
+        {
+          "option": "Green Bay",
+          "correct": false 
+        },
+        {
+          "option": "Madison",
+          "correct": true 
+        },
+        {
+          "option": "Milwaukee",
+          "correct": false 
+        },
+        {
+          "option": "Minneapolis",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of South Carolina?",
+      "answers": [
+        {
+          "option": "Columbia",
+          "correct": true 
+        },
+        {
+          "option": "Charleston",
+          "correct": false 
+        },
+        {
+          "option": "Greenville",
+          "correct": false 
+        },
+        {
+          "option": "Charlotte",
+          "correct": false 
+        }
+      ]
+    },
+    
+    {
+      "text": "What is the capital of Montana?",
+      "answers": [
+        {
+          "option": "Butte",
+          "correct": false 
+        },
+        {
+          "option": "Missoula",
+          "correct": false 
+        },
+        {
+          "option": "Helena",
+          "correct": true
+        },
+        {
+          "option": "Bozeman",
+          "correct": false 
+        }
+      ]
+    },
+    
+    {
+      "text": "What is the capital of Oregon?",
+      "picture": "https://media.giphy.com/media/3o6nUTu5okBYtAIxrO/giphy.gif",
+      "answers": [
+        {
+          "option": "Eugene",
+          "correct": false 
+        },
+        {
+          "option": "Portland",
+          "correct": false 
+        },
+        {
+          "option": "Bend",
+          "correct": false 
+        },
+        {
+          "option": "Salem",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of New Hampshire?",
+      "answers": [
+        {
+          "option": "Montpelier",
+          "correct": false 
+        },
+        {
+          "option": "Concord",
+          "correct": true 
+        },
+        {
+          "option": "Littleton",
+          "correct": false 
+        },
+        {
+          "option": "Hanover",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of New York?",
+      "answers": [
+        {
+          "option": "Albany",
+          "correct": true 
+        },
+        {
+          "option": "Manhattan",
+          "correct": false 
+        },
+        {
+          "option": "New York City",
+          "correct": false 
+        },
+        {
+          "option": "Hudson",
+          "correct": false 
+        }
+      ]
+    },
+    
+    {
+      "text": "What is the capital of Louisiana?",
+      "answers": [
+        {
+          "option": "Baton Rouge",
+          "correct": true 
+        },
+        {
+          "option": "New Orleans",
+          "correct": false 
+        },
+        {
+          "option": "Shreveport",
+          "correct": false 
+        },
+        {
+          "option": "Lafayette",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of California?",
+      "picture": "https://media.giphy.com/media/5t9Ai1hPYw1DvfM6JC/giphy.gif",
+      "answers": [
+        {
+          "option": "San Jose",
+          "correct": false 
+        },
+        {
+          "option": "Los Angeles",
+          "correct": false 
+        },
+        {
+          "option": "San Francisco",
+          "correct": false 
+        },
+        {
+          "option": "Sacramento",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Texas?",
+      "answers": [
+        {
+          "option": "Dallas",
+          "correct": false 
+        },
+        {
+          "option": "Austin",
+          "correct": true 
+        },
+        {
+          "option": "Houston",
+          "correct": false 
+        },
+        {
+          "option": "San Antonio",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Pennsylvania?",
+      "answers": [
+        {
+          "option": "Harrisburg",
+          "correct": true 
+        },
+        {
+          "option": "Philadelphia",
+          "correct": false 
+        },
+        {
+          "option": "Allentown",
+          "correct": false 
+        },
+        {
+          "option": "Pittsburg",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Idaho?",
+      "answers": [
+        {
+          "option": "Idaho Falls",
+          "correct": false 
+        },
+        {
+          "option": "Twin Falls",
+          "correct": false 
+        },
+        {
+          "option": "Boise",
+          "correct": true 
+        },
+        {
+          "option": "Butte",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Kentucky?",
+      "picture": "https://media.giphy.com/media/Xj9RfF1YGobfi/giphy.gif",
+      "answers": [
+        {
+          "option": "Louisville",
+          "correct": false 
+        },
+        {
+          "option": "Frankfort",
+          "correct": true 
+        },
+        {
+          "option": "Lexington",
+          "correct": false 
+        },
+        {
+          "option": "Elizabethtown",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Georgia?",
+      "answers": [
+        {
+          "option": "Augusta",
+          "correct": false 
+        },
+        {
+          "option": "Athens",
+          "correct": false 
+        },
+        {
+          "option": "Savannah",
+          "correct": false 
+        },
+        {
+          "option": "Atlanta",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Maryland?",
+      "answers": [
+        {
+          "option": "Baltimore",
+          "correct": false 
+        },
+        {
+          "option": "Saint Michaels",
+          "correct": false 
+        },
+        {
+          "option": "Annapolis",
+          "correct": true 
+        },
+        {
+          "option": "Dover",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of North Carolina?",
+      "answers": [
+        {
+          "option": "Raleigh",
+          "correct": true 
+        },
+        {
+          "option": "Durham",
+          "correct": false 
+        },
+        {
+          "option": "Charlotte",
+          "correct": false 
+        },
+        {
+          "option": "Greensboro",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of New Mexico?",
+      "answers": [
+        {
+          "option": "Albuquerque",
+          "correct": false 
+        },
+        {
+          "option": "Taos",
+          "correct": false 
+        },
+        {
+          "option": "Sedona",
+          "correct": false 
+        },
+        {
+          "option": "Santa Fe",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Kansas?",
+      "answers": [
+        {
+          "option": "Kansas City",
+          "correct": false 
+        },
+        {
+          "option": "Topeka",
+          "correct": true 
+        },
+        {
+          "option": "Wichita",
+          "correct": false 
+        },
+        {
+          "option": "Jefferson City",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Illinois?",
+      "answers": [
+        {
+          "option": "Springfield",
+          "correct": true 
+        },
+        {
+          "option": "Chicago",
+          "correct": false 
+        },
+        {
+          "option": "Peoria",
+          "correct": false 
+        },
+        {
+          "option": "St. Louis",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Vermont?",
+      "answers": [
+        {
+          "option": "Hanover",
+          "correct": false 
+        },
+        {
+          "option": "Montpelier",
+          "correct": true 
+        },
+        {
+          "option": "Burlington",
+          "correct": false 
+        },
+        {
+          "option": "Concord",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Colorado?",
+      "answers": [
+        {
+          "option": "Denver",
+          "correct": true 
+        },
+        {
+          "option": "Boulder",
+          "correct": false 
+        },
+        {
+          "option": "Colorado Springs",
+          "correct": false 
+        },
+        {
+          "option": "Fort Collins",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Mississippi?",
+      "answers": [
+        {
+          "option": "Vicksburg",
+          "correct": false 
+        },
+        {
+          "option": "Hattiesburg",
+          "correct": false 
+        },
+        {
+          "option": "Jackson",
+          "correct": true 
+        },
+        {
+          "option": "Biloxi",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Michigan?",
+      "answers": [
+        {
+          "option": "Saint Paul",
+          "correct": false 
+        },
+        {
+          "option": "Ann Arbor",
+          "correct": false 
+        },
+        {
+          "option": "Detroit",
+          "correct": false 
+        },
+        {
+          "option": "Lansing",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Alaska?",
+      "answers": [
+        {
+          "option": "Juneau",
+          "correct": true 
+        },
+        {
+          "option": "Skagway",
+          "correct": false 
+        },
+        {
+          "option": "Anchorage",
+          "correct": false 
+        },
+        {
+          "option": "Homer",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Indiana?",
+      "answers": [
+        {
+          "option": "Indiana City",
+          "correct": false 
+        },
+        {
+          "option": "Bloomington",
+          "correct": false 
+        },
+        {
+          "option": "South Bend",
+          "correct": false 
+        },
+        {
+          "option": "Indianapolis",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Delaware?",
+      "answers": [
+        {
+          "option": "Newark",
+          "correct": false 
+        },
+        {
+          "option": "Dover",
+          "correct": true 
+        },
+        {
+          "option": "Middletown",
+          "correct": false 
+        },
+        {
+          "option": "Georgetown",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Hawaii?",
+      "picture": "https://media.giphy.com/media/495RYn0Q6fjhBZPUDu/giphy.gif",
+      "answers": [
+        {
+          "option": "Honolulu",
+          "correct": true 
+        },
+        {
+          "option": "Waikiki",
+          "correct": false 
+        },
+        {
+          "option": "Oahu",
+          "correct": false 
+        },
+        {
+          "option": "Hawaii",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Missouri?",
+      "answers": [
+        {
+          "option": "Saint Louis",
+          "correct": false 
+        },
+        {
+          "option": "Jefferson City",
+          "correct": true 
+        },
+        {
+          "option": "Jackson",
+          "correct": false 
+        },
+        {
+          "option": "Ozark",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Rhode Island?",
+      "answers": [
+        {
+          "option": "Providence",
+          "correct": true 
+        },
+        {
+          "option": "Newport",
+          "correct": false 
+        },
+        {
+          "option": "Pawtucket",
+          "correct": false 
+        },
+        {
+          "option": "Cranston",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Minnesota?",
+      "answers": [
+        {
+          "option": "Minneapolis",
+          "correct": false 
+        },
+        {
+          "option": "Milwaukee",
+          "correct": false 
+        },
+        {
+          "option": "Saint Paul",
+          "correct": true 
+        },
+        {
+          "option": "Duluth",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of West Virginia?",
+      "answers": [
+        {
+          "option": "Clarksburg",
+          "correct": false 
+        },
+        {
+          "option": "Charleston",
+          "correct": true 
+        },
+        {
+          "option": "Huntington",
+          "correct": false 
+        },
+        {
+          "option": "Richmond",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Arkansas?",
+      "answers": [
+        {
+          "option": "Fayetteville",
+          "correct": false 
+        },
+        {
+          "option": "Jonesboro",
+          "correct": false 
+        },
+        {
+          "option": "Conway",
+          "correct": false 
+        },
+        {
+          "option": "Little Rock",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Connecticut?",
+      "answers": [
+        {
+          "option": "Danbury",
+          "correct": false 
+        },
+        {
+          "option": "Hartford",
+          "correct": true 
+        },
+        {
+          "option": "New Haven",
+          "correct": false 
+        },
+        {
+          "option": "Greenwich",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of North Dakota?",
+      "answers": [
+        {
+          "option": "Bismarck",
+          "correct": true 
+        },
+        {
+          "option": "Grand Forks",
+          "correct": false 
+        },
+        {
+          "option": "Dickinson",
+          "correct": false 
+        },
+        {
+          "option": "Fargo",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Massachusettes?",
+      "answers": [
+        {
+          "option": "Plymouth",
+          "correct": false 
+        },
+        {
+          "option": "Boston",
+          "correct": true 
+        },
+        {
+          "option": "Cambridge",
+          "correct": false 
+        },
+        {
+          "option": "Salem",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Washington?",
+      "answers": [
+        {
+          "option": "Tacoma",
+          "correct": false 
+        },
+        {
+          "option": "Spokane",
+          "correct": false 
+        },
+        {
+          "option": "Seattle",
+          "correct": false 
+        },
+        {
+          "option": "Olympia",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Tennessee?",
+      "answers": [
+        {
+          "option": "Nashville",
+          "correct": true 
+        },
+        {
+          "option": "Knoxville",
+          "correct": false 
+        },
+        {
+          "option": "Memphis",
+          "correct": false 
+        },
+        {
+          "option": "Chattanooga",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Virginia?",
+      "answers": [
+        {
+          "option": "Williamsburg",
+          "correct": false 
+        },
+        {
+          "option": "Richmond",
+          "correct": true 
+        },
+        {
+          "option": "Alexandria",
+          "correct": false 
+        },
+        {
+          "option": "Roanoke",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of New Jersey?",
+      "answers": [
+        {
+          "option": "Newark",
+          "correct": false 
+        },
+        {
+          "option": "Atlantic City",
+          "correct": false 
+        },
+        {
+          "option": "Princeton",
+          "correct": false 
+        },
+        {
+          "option": "Trenton",
+          "correct": true 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Oklahoma?",
+      "answers": [
+        {
+          "option": "Tulsa",
+          "correct": false 
+        },
+        {
+          "option": "Edmond",
+          "correct": false 
+        },
+        {
+          "option": "Oklahoma City",
+          "correct": true 
+        },
+        {
+          "option": "Kansas City",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of South Dakota?",
+      "answers": [
+        {
+          "option": "Sioux Falls",
+          "correct": false 
+        },
+        {
+          "option": "Deadwood",
+          "correct": false 
+        },
+        {
+          "option": "Rapid City",
+          "correct": false 
+        },
+        {
+          "option": "Pierre",
+          "correct": true 
+        }
+      ]
+    },
+    
+    {
+      "text": "What is the capital of Iowa?",
+      "answers": [
+        {
+          "option": "Springfield",
+          "correct": false 
+        },
+        {
+          "option": "Davenport",
+          "correct": false 
+        },
+        {
+          "option": "Cedar Rapids",
+          "correct": false 
+        },
+        {
+          "option": "Des Moines",
+          "correct": true 
+        }
+      ]
+    }
+
+  ],
+  "results": [
+    {
+      "headline": "You know nothing!",
+      "resultpic": "https://media.giphy.com/media/CPskAi4C6WLHa/giphy.gif",
+      "summary": "You are basically Jon Snow when it comes to US Capitals. Pick up a book or go to the airport. Preferably both."
+    },
+    {
+      "headline": "Pretty good!",
+      "resultpic": "https://media.giphy.com/media/lgRNj0m1oORfW/giphy.gif",
+      "summary": "You know the basics and even a few deep cuts. Keep practicing and you'll get all of the answers soon enough!"
+    },
+    {
+      "headline": "Amazing",
+      "resultpic": "https://media.giphy.com/media/glvyCVWYJ21fq/giphy.gif",
+      "summary": "Your knowledge of American capitals probably rivals most politicians! Well done!"
+    }
+  ],
+  "quizheadline":
+  {
+    "quiztitle": "Can you name the US state capitals?",
+    "intropic": "https://mapswire.com/maps/countries/united-states-physical-map-large.jpg",
+    "quizsummary": "There are 50 of them."
+  }
+}

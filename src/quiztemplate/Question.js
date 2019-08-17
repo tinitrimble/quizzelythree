@@ -61,7 +61,7 @@ Question.GetCorrect = styled.div`
   margin: 42px 12px;
 `
 Question.Question = styled.h3`
-  font-size: 22px;
+  font-size: 20px;
   color: #3e4a48;
   display: flex;
   margin: 0;

@@ -1,0 +1,607 @@
+
+{
+  "slug": "internationalcapitals",
+  "questions": [
+    {
+      "text": "What is the capital of Lebanon?",
+      "answers": [
+        {
+          "option": "Tripoli",
+          "correct": false 
+        },
+        {
+          "option": "Beirut",
+          "correct": true 
+        },
+        {
+          "option": "Damascus",
+          "correct": false 
+        },
+        {
+          "option": "Amman",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Indonesia?",
+      "picture": "https://media.giphy.com/media/xT1R9T2GcvLXawBHmE/giphy.gif",
+      "answers": [
+        {
+          "option": "Kuala Lumpur",
+          "correct": false 
+        },
+        {
+          "option": "Bali",
+          "correct": false 
+        },
+        {
+          "option": "Surabaya",
+          "correct": false 
+        },
+        {
+          "option": "Jakarta",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "Santiago is the capital of what country?",
+      "answers": [
+        {
+          "option": "Argentina",
+          "correct": false 
+        },
+        {
+          "option": "Peru",
+          "correct": false 
+        },
+        {
+          "option": "Chile",
+          "correct": true 
+        },
+        {
+          "option": "Bolivia",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Brazil?",
+      "picture": "https://media.giphy.com/media/tnykatMsOoyJO/giphy.gif",
+      "answers": [
+        {
+          "option": "Brasilia",
+          "correct": true 
+        },
+        {
+          "option": "Sao Paulo",
+          "correct": false 
+        },
+        {
+          "option": "Rio de Janeiro",
+          "correct": false 
+        },
+        {
+          "option": "Salvador",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "St. George's is the capital of what country?",
+      "answers": [
+        {
+          "option": "Guatemala",
+          "correct": false 
+        },
+        {
+          "option": "Grenada",
+          "correct": true 
+        },
+        {
+          "option": "Guinea",
+          "correct": false 
+        },
+        {
+          "option": "Guyana",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Morocco?",
+      "picture": "https://media.giphy.com/media/SHhPLa7yvyeu2dazPD/giphy.gif",
+      "answers": [
+        {
+          "option": "Tangier",
+          "correct": false 
+        },
+        {
+          "option": "Marrakesh",
+          "correct": false 
+        },
+        {
+          "option": "Rabat",
+          "correct": true 
+        },
+        {
+          "option": "Fes",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Belarus?",
+      "answers": [
+        {
+          "option": "Minsk",
+          "correct": true 
+        },
+        {
+          "option": "Grodno",
+          "correct": false 
+        },
+        {
+          "option": "Porto-Novo",
+          "correct": false 
+        },
+        {
+          "option": "Nicosia",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Croatia?",
+      "picture": "https://media.giphy.com/media/cNquJBjgL4XtCPJtG0/giphy.gif",
+      "answers": [
+        {
+          "option": "Zadar",
+          "correct": false 
+        },
+        {
+          "option": "Dubrovnik",
+          "correct": false 
+        },
+        {
+          "option": "Zagreb",
+          "correct": true 
+        },
+        {
+          "option": "Belgrade",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Reykjavik is the capital of what country?",
+      "answers": [
+        {
+          "option": "Iceland",
+          "correct": true 
+        },
+        {
+          "option": "Greenland",
+          "correct": false 
+        },
+        {
+          "option": "Sweden",
+          "correct": false 
+        },
+        {
+          "option": "Estonia",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the capital of Scotland?",
+      "picture": "https://media.giphy.com/media/26n2nfH2IFx3o1z4ZQ/giphy.gif",
+      "answers": [
+        {
+          "option": "Lochness",
+          "correct": false 
+        },
+        {
+          "option": "Glasgow",
+          "correct": false 
+        },
+        {
+          "option": "Inverness",
+          "correct": false 
+        },
+        {
+          "option": "Edinburg",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Ethiopia?",
+      "answers": [
+        {
+          "option": "Addis Ababa",
+          "correct": true 
+        },
+        {
+          "option": "Malabo",
+          "correct": false 
+        },
+        {
+          "option": "Libreville",
+          "correct": false 
+        },
+        {
+          "option": "Banjul",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Sudan?",
+      "answers": [
+        {
+          "option": "Port Sudan",
+          "correct": false 
+        },
+        {
+          "option": "Khartoum",
+          "correct": true 
+        },
+        {
+          "option": "Omdurman",
+          "correct": false 
+        },
+        {
+          "option": "Tripoli",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Ghana?",
+      "answers": [
+        {
+          "option": "Georgetown",
+          "correct": false 
+        },
+        {
+          "option": "Dodoma",
+          "correct": false 
+        },
+        {
+          "option": "Accra",
+          "correct": true 
+        },
+        {
+          "option": "Dili",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Nairobi is the capital of what country?",
+      "answers": [
+        {
+          "option": "Libya",
+          "correct": false 
+        },
+        {
+          "option": "Liberia",
+          "correct": false 
+        },
+        {
+          "option": "Zambia",
+          "correct": false 
+        },
+        {
+          "option": "Kenya",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Iran?",
+      "answers": [
+        {
+          "option": "Tehran",
+          "correct": true 
+        },
+        {
+          "option": "Shiraz",
+          "correct": false 
+        },
+        {
+          "option": "Tabriz",
+          "correct": false 
+        },
+        {
+          "option": "Baghdad",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Jamaica?",
+      "answers": [
+        {
+          "option": "Nassau",
+          "correct": false 
+        },
+        {
+          "option": "Kingston",
+          "correct": true 
+        },
+        {
+          "option": "Port-au-Prince",
+          "correct": false 
+        },
+        {
+          "option": "Victoria",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Germany?",
+      "picture": "https://media.giphy.com/media/3ohfFrJY1UsNiZj6vK/giphy.gif",
+      "answers": [
+        {
+          "option": "Munich",
+          "correct": false 
+        },
+        {
+          "option": "Nuremburg",
+          "correct": false 
+        },
+        {
+          "option": "Berlin",
+          "correct": true 
+        },
+        {
+          "option": "Frankfurt",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Vietnam?",
+      "answers": [
+        {
+          "option": "Phnom Penh",
+          "correct": false 
+        },
+        {
+          "option": "Da Nang",
+          "correct": false
+        },
+        {
+          "option": "Ho Chi Minh City",
+          "correct": false 
+        },
+        {
+          "option": "Hanoi",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Portugal?",
+      "answers": [
+        {
+          "option": "Lisbon",
+          "correct": true
+        },
+        {
+          "option": "Porto",
+          "correct": false 
+        },
+        {
+          "option": "Lagos",
+          "correct": false 
+        },
+        {
+          "option": "Granada",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Riga is the capital of what country",
+      "answers": [
+        {
+          "option": "Romania",
+          "correct": false
+        },
+        {
+          "option": "Latvia",
+          "correct": true 
+        },
+        {
+          "option": "Malta",
+          "correct": false 
+        },
+        {
+          "option": "Montenegro",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Slovenia?",
+      "answers": [
+        {
+          "option": "Ljubljana",
+          "correct": true 
+        },
+        {
+          "option": "Bratislava",
+          "correct": false 
+        },
+        {
+          "option": "Tallinn",
+          "correct": false 
+        },
+        {
+          "option": "Vilnius",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Kyrgyzstan?",
+      "answers": [
+        {
+          "option": "Nur-Sultan",
+          "correct": false 
+        },
+        {
+          "option": "Pristina",
+          "correct": false 
+        },
+        {
+          "option": "Bishkek",
+          "correct": true 
+        },
+        {
+          "option": "Tashkent",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Venezuela?",
+      "answers": [
+        {
+          "option": "Montevideo",
+          "correct": false 
+        },
+        {
+          "option": "Caracas",
+          "correct": true 
+        },
+        {
+          "option": "Paramaribo",
+          "correct": false 
+        },
+        {
+          "option": "Bogota",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "Bratislava is the capital of what country?",
+      "answers": [
+        {
+          "option": "Slovenia",
+          "correct": false 
+        },
+        {
+          "option": "Slovakia",
+          "correct": true 
+        },
+        {
+          "option": "Moldova",
+          "correct": false 
+        },
+        {
+          "option": "Albania",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Romania?",
+      "answers": [
+        {
+          "option": "Budapest",
+          "correct": false 
+        },
+        {
+          "option": "Nicosia",
+          "correct": false 
+        },
+        {
+          "option": "Chisinau",
+          "correct": false 
+        },
+        {
+          "option": "Bucharest",
+          "correct": true 
+        }
+      ]
+    },
+    {
+      "text": "Bamako is the capital of what country?",
+      "answers": [
+        {
+          "option": "Rwanda",
+          "correct": false 
+        },
+        {
+          "option": "Mali",
+          "correct": true 
+        },
+        {
+          "option": "Moldova",
+          "correct": false 
+        },
+        {
+          "option": "Namibia",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the capital of Nepal?",
+      "picture": "https://media.giphy.com/media/6hMSP0eM8D4K4/giphy.gif",
+      "answers": [
+        {
+          "option": "Agra",
+          "correct": false 
+        },
+        {
+          "option": "Pohkara",
+          "correct": false 
+        },
+        {
+          "option": "Lhasa",
+          "correct": false 
+        },
+        {
+          "option": "Kathmandu",
+          "correct": true 
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "headline": "Geographically challenged",
+      "resultpic": "https://media.giphy.com/media/mPytjcsG3XS4o/giphy.gif",
+      "summary": "You need to spend time with a map or globe of some sort. I'm sure you know a lot of major world capitals, but the smaller ones are still important!"
+    },
+    {
+      "headline": "Not bad",
+      "resultpic": "https://media.giphy.com/media/3ov9jTeFRZpGrYAQJa/giphy.gif",
+      "summary": "You did alright. Not great, but you definitely know your way around a map!"
+    },
+    {
+      "headline": "Student of the World!",
+      "resultpic": "https://media.giphy.com/media/ojhAx9NdqUTK0/giphy.gif",
+      "summary": "Congratulations! You know so much about world capitals and it shows!"
+    }
+  ],
+  "quizheadline":
+  {
+    "quiztitle": "Can you identify these major international capitals?",
+    "intropic": "https://www.maxpixel.net/static/photo/2x/Globe-Earth-America-World-Usa-Hand-South-America-3984876.jpg",
+    "quizsummary": "Identify the capitals of the world!"
+  }
+}

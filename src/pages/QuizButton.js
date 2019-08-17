@@ -18,6 +18,7 @@ QuizButton.Title = styled.h4`
   bottom: 0;
   width: 100%;
   padding: 12px;
+  font-weight: 450;
   box-sizing: border-box;
   font-size: 22px;
   background-color: rgba(186, 219, 211, 0.85);
