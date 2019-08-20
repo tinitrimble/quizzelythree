@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
-import PropTypes from 'prop-types'
-import scrollToElement from 'scroll-to-element'
+import React, { Component } from "react"
+import styled from "styled-components"
+import PropTypes from "prop-types"
+import scrollToElement from "scroll-to-element"
 
 class Results extends Component {
   static propTypes = {
@@ -11,22 +11,24 @@ class Results extends Component {
     summary: PropTypes.string.isRequired,
   }
   componentDidMount() {
-    window.setTimeout(() => {
-      scrollToElement('.resultblurb', {
-        align: 'bottom',
-        duration: 500
+    window.setTimeout(() = {
+      scrollToElement(".resultblurb", {
+        align: "bottom",
+        duration: 500,
       })
     }, 500)
   }
   render() {
     return (
       <Results.ResultBox>
-      <Results.Headline>{this.props.headline}</Results.Headline>
-      <Results.Score>You scored: {this.props.score}</Results.Score>
-      <Results.ResultPicContainer>
-        <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
-      <Results.ResultBlurb className="resultblurb">{this.props.summary}</Results.ResultBlurb>
-      </Results.ResultPicContainer>
+        <Results.Headline>{this.props.headline}</Results.Headline>
+        <Results.Score>You scored: {this.props.score}</Results.Score>
+        <Results.ResultPicContainer>
+          <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
+          <Results.ResultBlurb className="resultblurb">
+            {this.props.summary}
+          </Results.ResultBlurb>
+        </Results.ResultPicContainer>
       </Results.ResultBox>
     )
   }
@@ -47,7 +49,7 @@ Results.Score = styled.h1`
   justify-content: center;
   text-align: center;
   font-size: 24px;
-  color: #6EC8B2;
+  color: #6ec8b2;
   margin: 0 auto;
   margin-top: 10px;
 `
@@ -65,7 +67,7 @@ Results.ResultPicContainer = styled.div`
   justify-content: center;
   align-self: center;
 `
-      
+
 Results.ResultPic = styled.img`
   max-width: 325px;
   max-height: 200px;
@@ -85,4 +87,4 @@ Results.ResultBlurb = styled.p`
   padding-bottom: 20px;
 `
 
-export default Results;
+export default Results
