@@ -11,7 +11,7 @@ class Results extends Component {
     summary: PropTypes.string.isRequired,
   }
   componentDidMount() {
-    window.setTimeout(() = {
+    window.setTimeout(() => {
       scrollToElement(".resultblurb", {
         align: "bottom",
         duration: 500,
