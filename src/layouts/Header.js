@@ -2,9 +2,20 @@ import React from 'react'
 import Link from 'gatsby-link'
 import logo from '../images/q2.svg'
 import styled from 'styled-components'
+import Helmet from 'react-helmet'
 
 const Header = () => (
   <Header.Div ui-view="header" autoscroll="true">
+      <Helmet
+          title="Quizzelydoo - A Place To Waste Time"
+          meta={[
+            { name: 'description', content: 'A Quiz Site' },
+            { name: 'keywords', content: 'quiz, test' },
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${logo}` }
+          ]}
+        />
     <Header.Title to="/" className="page-name">
       <Header.Logo src={logo} className="logo" alt="logo" />
       <Header.PageName>uizzelydoo</Header.PageName>

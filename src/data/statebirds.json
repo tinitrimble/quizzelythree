@@ -271,11 +271,11 @@
           "correct": false 
         },
         {
-          "option": "Golden-crownd Kinglet",
+          "option": "Golden-Crowned Kinglet",
           "correct": false 
         },
         {
-          "option": "Black-capped chickadee",
+          "option": "Black-Capped Chickadee",
           "correct": true 
         },
         {
@@ -310,7 +310,7 @@
       "picture": "https://media.giphy.com/media/l0NhWLdqrEy4hgeGc/giphy.gif",
       "answers": [
         {
-          "option": "Hermit thrush",
+          "option": "Hermit Thrush",
           "correct": true 
         },
         {
@@ -364,7 +364,7 @@
           "correct": false
         },
         {
-          "option": "",
+          "option": "Western Meadowlark",
           "correct": false
         }
       ]

@@ -10,7 +10,7 @@ class Results extends Component {
     resultpic: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
   }
-  componentDidMount() {
+  scrollDown() {
     window.setTimeout(() => {
       scrollToElement(".resultblurb", {
         align: "bottom",
@@ -18,13 +18,16 @@ class Results extends Component {
       })
     }, 700)
   }
+  componentDidMount() {
+    return this.scrollDown();
+  }
   render() {
     return (
       <Results.ResultBox>
         <Results.Headline>{this.props.headline}</Results.Headline>
         <Results.Score>You scored: {this.props.score}</Results.Score>
         <Results.ResultPicContainer>
-          <Results.ResultPic src={this.props.resultpic} alt="resultpic" />
+          <Results.ResultPic src={this.props.resultpic} alt="resultpic" onLoad={() => this.scrollDown()} />
           <Results.ResultBlurb className="resultblurb">
             {this.props.summary}
           </Results.ResultBlurb>

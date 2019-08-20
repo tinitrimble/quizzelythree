@@ -3,23 +3,11 @@ import Header from "../layouts/Header.js"
 import { graphql } from "gatsby"
 import QuizButton from './QuizButton'
 import styled from 'styled-components'
-import Helmet from 'react-helmet'
-import logo from '../images/q2.svg'
 
 const Mainpage = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
   return (
     <Mainpage.Quizlist>
-      <Helmet
-          title="Quizzelydoo - A Place To Waste Time"
-          meta={[
-            { name: 'description', content: 'A Quiz Site' },
-            { name: 'keywords', content: 'quiz, test' },
-          ]}
-          link={[
-            { rel: 'shortcut icon', type: 'image/png', href: `${logo}` }
-          ]}
-        />
       <Header />
       <PageHeader>Welcome to Quizzelydoo</PageHeader>
       <Mainpage.Subhead> A Place to Waste Time </Mainpage.Subhead>
