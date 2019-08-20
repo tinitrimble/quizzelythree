@@ -2,294 +2,395 @@
   "slug": "statebirds",
   "questions": [
     {
-      "text": "",
-      "picture": "",
+      "text": "What is the state bird of Arizona?",
+      "picture": "https://media.giphy.com/media/R9Eazl18aeaNa/giphy.gif",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Willow Ptarmigan",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Cactus Wren",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Lark Bunting",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "American Robin",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
+      "text": "What is the state bird of Georgia?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Mountain Bluebird",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Brown Pelican",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
-        },
+          "option": "Chickadee",
+          "correct": false 
+         },
         {
-          "option": "",
-          "correct": 
+          "option": "Brown Thrasher",
+          "correct": true 
         }
       ]
     },
     {
-      "text": "",
-      "picture": "",
+      "text": "What is the state bird of Michigan?",
+      "picture": "https://media.giphy.com/media/3o7Zep2BUmm0QeByWQ/giphy.gif",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Northern Mockingbird",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Common Loon",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Wood Duck",
+          "correct": false 
         },
         {
-          "option": " ",
-          "correct": 
-        }
-      ]
-    },
-
-    {
-      "text": "",
-      "picture": "",
-      "answers": [
-        {
-          "option": "",
-          "correct": 
-        },
-        {
-          "option": "",
-          "correct": 
+          "option": "American Robin",
+          "correct": true 
         }
       ]
     },
 
     {
-      "text": "",
-      "picture": "",
+      "text": "What is the state bird of New Mexico?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "RoadRunner",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Wild Turkey",
+          "correct": false 
+        },
+        {
+          "option": "Ring-Necked Pheasant",
+          "correct": false 
+        },
+        {
+          "option": "Cactus Wren",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the state bird of Florida?",
+      "picture": "https://media.giphy.com/media/nAHZZbvw5vtsI/giphy.gif",
+      "answers": [
+        {
+          "option": "Blue Heron",
+          "correct": false 
+        },
+        {
+          "option": "Osprey",
+          "correct": false 
+        },
+        {
+          "option": "Bay Breasted Warbler",
+          "correct": false 
+        },
+        {
+          "option": "Northern Mockingbird",
+          "correct": true 
         }
       ]
     },
 
     {
-      "text": "",
+      "text": "What is the state bird of New York?",
+      "picture": "https://media.giphy.com/media/Zdg6V4TB3nkJVSbeIu/giphy.gif",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Northern Cardinal",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Eastern Bluebird",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "American Robin",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Northern Pigeon",
+          "correct": false 
         }
       ]
     },
 
     {
-      "text": "",
-      "picture": "",
+      "text": "What is the state bird of Rhode Island?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Rhode Island Red",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Rhode Island White",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Rhode Island Brown",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Rhode Island Blue",
+          "correct": false 
+        }
+      ]
+    },
+
+    {
+      "text": "What is the state bird of Texas?",
+      "picture": "https://media.giphy.com/media/2tQrjoDtfAEkqfsDSC/giphy.gif",
+      "answers": [
+        {
+          "option": "Western Meadowlark",
+          "correct": false 
+        },
+        {
+          "option": "Chickadee",
+          "correct": false 
+        },
+        {
+          "option": "Northern Mockingbird",
+          "correct": true 
+        },
+        {
+          "option": "Brown Thrasher",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
+      "text": "The Willow Goldfinch is the state bird of which state?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Maine",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Oregon",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Washington",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Vermont",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
-      "picture": "",
+      "text": "The mountain bluebird is the state bird of which state?",
+      "picture": "https://media.giphy.com/media/xT0GqihaU4PGTR6g24/giphy.gif",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Idaho",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "West Virginia",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Utah",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Colorado",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
+      "text": "What is the state bird of Kansas?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Yellowhammer",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "American Robin",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Western Meadowlark",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Bobwhite Quail",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
+      "text": "What is the state bird of California?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "California Wood Thrush",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "California Wren",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "California Robin",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "California Quail",
+          "correct": true 
         }
       ]
     },
     {
-      "text": "",
+      "text": "What is the state bird of Massachusetts",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Purple Finch",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Golden-crownd Kinglet",
+          "correct": false 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "Black-capped chickadee",
+          "correct": true 
         },
         {
-          "option": "",
-          "correct": 
+          "option": "American Woodcock",
+          "correct": false 
         }
       ]
     },
     {
-      "text": "",
+      "text": "What is the state bird of Minnesota?",
       "answers": [
         {
-          "option": "",
-          "correct": 
+          "option": "Black Swift",
+          "correct": false 
+        },
+        {
+          "option": "Common Loon",
+          "correct": true 
+        },
+        {
+          "option": "Cave Swallow",
+          "correct": false 
+        },
+        {
+          "option": "Chestnut-Sided Warbler",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the state bird of Vermont",
+      "picture": "https://media.giphy.com/media/l0NhWLdqrEy4hgeGc/giphy.gif",
+      "answers": [
+        {
+          "option": "Hermit thrush",
+          "correct": true 
+        },
+        {
+          "option": "Gray Tailed Tattler",
+          "correct": false 
+        },
+        {
+          "option": "Green Jay",
+          "correct": false 
+        },
+        {
+          "option": "Mourning Dove",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the state bird of Alaska?",
+      "answers": [
+        {
+          "option": "Reddish Egret",
+          "correct": false 
+        },
+        {
+          "option": "Pacific Wren",
+          "correct": false 
+        },
+        {
+          "option": "Willow Ptarmigan",
+          "correct": true 
+        },
+        {
+          "option": "Northern Waterthrush",
+          "correct": false 
+        }
+      ]
+    },
+    {
+      "text": "What is the state bird of Colorado?",
+      "answers": [
+        {
+          "option": "Mountain Bluebird",
+          "correct": false 
+        },
+        {
+          "option": "Lark Bunting",
+          "correct": true 
+        },
+        {
+          "option": "Great Kiskadee",
+          "correct": false
         },
         {
           "option": "",
-          "correct": 
-        },
-        {
-          "option": "",
-          "correct": 
-        },
-        {
-          "option": "",
-          "correct": 
+          "correct": false
         }
       ]
     }
   ],
   "results": [
     {
-      "headline": "",
-      "resultpic": "",
-      "summary": ""
+      "headline": "You cannot identify these state birds",
+      "resultpic": "https://media.giphy.com/media/U6Fxnc2jTlBh2GKCTU/giphy.gif",
+      "summary": "Yeah I don't know if it's that you don't know birds or you don't know obscure state trivia. Either way you should use it as an excuse to visit an aviary."
     },
     {
-      "headline": "",
-      "resultpic": "",
-      "summary": ""
+      "headline": "Better than most",
+      "resultpic": "https://media.giphy.com/media/l1J9O9elEvuRjMyXu/giphy.gif",
+      "summary": "To be totally honest nobody expected you to even get this many right. Maybe you guessed or maybe you just really know your stuff. I'm straight up impressed."
     },
     {
-      "headline": "",
-      "resultpic": "",
-      "summary": ""
+      "headline": "Outstanding!",
+      "resultpic": "https://media.giphy.com/media/WTXEGBIkcXg71mjJP3/giphy.gif",
+      "summary": "Did you literally spend time studying this? Have you got a degree in state bird identification? I refuse to believe otherwise because your performance in this quiz is ridiculously impressive."
     }
   ],
   "quizheadline":
   {
-    "quiztitle": "",
-    "intropic": "",
-    "quizsummary": ""
+    "quiztitle": "Can you match these states to their state birds?",
+    "intropic": "https://live.staticflickr.com/4753/40021139011_d9e34a230e_b.jpg",
+    "quizsummary": "Test your abritrary state trivia!"
   }
 }

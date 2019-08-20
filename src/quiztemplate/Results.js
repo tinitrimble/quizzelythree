@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import styled from "styled-components"
-import PropTypes from "prop-types"
-import scrollToElement from "scroll-to-element"
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import PropTypes from 'prop-types'
+import scrollToElement from 'scroll-to-element'
 
 class Results extends Component {
   static propTypes = {
@@ -16,7 +16,7 @@ class Results extends Component {
         align: "bottom",
         duration: 500,
       })
-    }, 500)
+    }, 700)
   }
   render() {
     return (
