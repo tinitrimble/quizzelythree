@@ -178,6 +178,7 @@
         }
       ]
     },
+
     {
       "text": "The Willow Goldfinch is the state bird of which state?",
       "answers": [
@@ -199,6 +200,7 @@
         }
       ]
     },
+
     {
       "text": "The mountain bluebird is the state bird of which state?",
       "picture": "https://media.giphy.com/media/xT0GqihaU4PGTR6g24/giphy.gif",
@@ -221,6 +223,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Kansas?",
       "answers": [
@@ -242,6 +245,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of California?",
       "answers": [
@@ -263,6 +267,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Massachusetts",
       "answers": [
@@ -284,6 +289,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Minnesota?",
       "answers": [
@@ -305,6 +311,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Vermont",
       "picture": "https://media.giphy.com/media/l0NhWLdqrEy4hgeGc/giphy.gif",
@@ -327,6 +334,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Alaska?",
       "answers": [
@@ -348,6 +356,7 @@
         }
       ]
     },
+
     {
       "text": "What is the state bird of Colorado?",
       "answers": [
@@ -369,6 +378,7 @@
         }
       ]
     }
+
   ],
   "results": [
     {
