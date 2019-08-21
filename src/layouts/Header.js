@@ -27,7 +27,7 @@ Header.Div = styled.div`
   background-color: rgb(220, 230, 229, 0.95);
   z-index: 2;
   width: 100%;
-  position: fixed;
+  position: absolute;
   display: flex;
   top: 0;
   left: 50%;

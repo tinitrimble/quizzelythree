@@ -58,7 +58,7 @@ Question.GetCorrect = styled.div`
   flex-flow: column wrap;
   text-align: center;
   color: #3e4a48;
-  margin: 42px 12px;
+  margin: 42px 10px;
 `
 Question.Question = styled.h3`
   font-size: 20px;
@@ -74,6 +74,7 @@ Question.Question = styled.h3`
 Question.Pic = styled.img`
   align-self: center;
   border-radius: 10px;
+  max-width: 80%;
   max-height: 200px;
   margin-top: 10px;
 `
@@ -89,10 +90,10 @@ Question.PossibleChoices = styled.div`
 
 Question.Button = styled.button`
   text-align: center;
-  margin-top: 10px;
+  margin-top: 12px;
   width: 200px;
   padding: 4px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 5px;
   border: 1px solid #bacdc5;
   background-color: #fff;
