@@ -17,7 +17,7 @@ Footer.Div = styled.div`
 Footer.Link = styled(Link)`
   background-color: rgb(220, 230, 229, 0.95);
   z-index: 2;
-  height: 50px;
+  height: 46px;
   width: 100%;
   position: fixed;
   display: flex;
@@ -33,7 +33,7 @@ Footer.Link = styled(Link)`
 `
 
 Footer.Logo = styled.img`
- height: 50px;
+ height: 46px;
  align-self: center;
  margin-right: 4px;
  justify: middle;
