@@ -1,6 +1,7 @@
 import { graphql } from "gatsby"
 import React, { Component } from "react"
 import Header from "../layouts/Header.js"
+import Footer from '../layouts/Footer.js'
 import Introquiz from "../quiztemplate/Introquiz.js"
 import Question from "../quiztemplate/Question.js"
 import styled from 'styled-components'
@@ -107,6 +108,7 @@ class Quiz extends Component {
           </Quiz.Display>
         )}
         {this.getResults()}
+        <Footer />
       </Quiz.Container>
     )
   }
@@ -114,6 +116,7 @@ class Quiz extends Component {
 
 Quiz.Container = styled.div`
   background-color: #white;
+  margin-bottom: 50px;
 `
 
 Quiz.Display = styled.div`

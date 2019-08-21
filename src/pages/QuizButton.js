@@ -29,8 +29,8 @@ QuizButton.Link = styled(Link)`
   position: relative;
   overflow: hidden;
   margin: 18px;
-  max-width: 350px;
-  height: 230px;
+  max-width: 320px;
+  height: 200px;
   &:hover {
     box-shadow: 0 4px 6px 0 #bacfcc;
   }

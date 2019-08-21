@@ -13,6 +13,7 @@ class Results extends Component {
   scrollDown() {
       scrollToElement(".resultblurb", {
         align: "bottom",
+        offset: 1000
       })
   }
   render() {

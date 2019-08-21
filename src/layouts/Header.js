@@ -24,7 +24,7 @@ const Header = () => (
 )
 
 Header.Div = styled.div`
-  background-color: rgb(220, 230, 229, 0.85);
+  background-color: rgb(220, 230, 229, 0.95);
   z-index: 2;
   width: 100%;
   position: fixed;
