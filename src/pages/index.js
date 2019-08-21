@@ -3,7 +3,6 @@ import Header from '../layouts/Header.js'
 import { graphql } from 'gatsby'
 import QuizButton from './QuizButton'
 import styled from 'styled-components'
-import Footer from '../layouts/Footer.js'
 
 const Mainpage = ({ data }) => {
   const quizzes = data.allDataJson.edges.map(edge => edge.node); 
@@ -17,7 +16,6 @@ const Mainpage = ({ data }) => {
           <QuizButton to={`/quiz/${quiz.slug}`} key={quiz.slug} title={quiz.quizheadline.quiztitle} picture={quiz.quizheadline.intropic} alt="intropic" /> 
         ))}
       </Mainpage.TheQuizzes>
-      <Footer />
     </Mainpage.Quizlist>
   )
 }
