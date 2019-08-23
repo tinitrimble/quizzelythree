@@ -7,6 +7,9 @@ const Footer = () => (
   <Footer.Div>
     <Footer.Link to="/">
       <Footer.Logo src={logo} className="logo" alt="logo" />
+      <Footer.Back> 
+        Back to Quizzes
+      </Footer.Back>
     </Footer.Link>
   </Footer.Div>
 )
@@ -33,10 +36,17 @@ Footer.Link = styled(Link)`
 `
 
 Footer.Logo = styled.img`
- height: 50px;
+ height: 28px;
  align-self: center;
  margin-right: 4px;
  justify: middle;
+`;
+
+Footer.Back = styled.p`
+  color: black;
+  font-family: sans-serif;
+  align-self: center;
+  font-weight: 350;
 `;
 
 export default Footer;
